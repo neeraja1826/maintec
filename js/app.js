@@ -362,49 +362,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   ];
 
-  // Verified Client & Stakeholder Testimonials
-  const reviewsData = [
-    {
-      id: '1',
-      category: 'Finance & Banking',
-      quote: 'Maintec’s banking leadership brought practical understanding to our fund-raising mandate. They bridged the gap with lending institutions and structured a clear, bankable project report that accelerated our financing process.',
-      author: 'K. S. Narayanan',
-      designation: 'Managing Director',
-      company: 'Deccan Precision Engineering',
-      rating: 5,
-      highlight: 'Lender coordination executed with complete clarity'
-    },
-    {
-      id: '2',
-      category: 'Enterprise Growth',
-      quote: 'The collaborative advisory approach helped our leadership understand our growth requirements before seeking capital. Their transparency, disciplined workflow, and coordinated professional support are commendable.',
-      author: 'P. Ravindra Reddy',
-      designation: 'Founder & CEO',
-      company: 'Vanguard Agritech Solutions',
-      rating: 5,
-      highlight: 'Enterprise growth roadmap structured smoothly'
-    },
-    {
-      id: '3',
-      category: 'Sustainability',
-      quote: 'Yasaswini’s deep engagement in Andhra Pradesh’s circular economy initiatives and grassroots artisan networks provided our project with invaluable strategic structuring and institutional alignment.',
-      author: 'Dr. M. Sailaja Rao',
-      designation: 'Director of Programs',
-      company: 'AP Sustainable Livelihoods Initiative',
-      rating: 5,
-      highlight: 'Pioneering rural circular-economy enterprise models'
-    },
-    {
-      id: '4',
-      category: 'Compliance Coordination',
-      quote: 'Maintec seamlessly coordinated our statutory filings and corporate documentation through qualified professionals while keeping all records transparently organized on MineSolutions.AI.',
-      author: 'S. Chandrasekhar',
-      designation: 'Chief Operating Officer',
-      company: 'Apex Industrial Logistics Ltd.',
-      rating: 5,
-      highlight: 'Coordinated compliance executed with zero friction'
-    }
-  ];
+  // Stakeholder Testimonials / Case Studies
+  // NOTE: Withheld from public rendering per Section 01 & Section 13 Safeguards 
+  // (Publish only after documentary verification and written client release)
+  const reviewsData = [];
 
   // Complete Policies Content Dictionary (Sections 10, 11, 12, 13, 14 Verbatim)
   const policiesData = {
@@ -415,7 +376,7 @@ document.addEventListener('DOMContentLoaded', () => {
       html: `
         <div style="display: flex; flex-direction: column; gap: 1.25rem; font-size: 0.8125rem; color: #334155; line-height: 1.65;">
           <div style="padding: 0.75rem 1rem; border-radius: 0.75rem; background: #eff6ff; border: 1px solid #bfdbfe; font-size: 0.75rem; color: #1e3a8a;">
-            <strong>Publication Header:</strong> Legal entity: Maintec Financial Advisory Services Private Limited | CIN: U65991KA2008PTC047500 | Privacy / Grievance Email: <a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>
+            <strong>Publication Header:</strong> Legal entity: Maintec Financial Advisory Services Private Limited | CIN: U65991KA2008PTC047500 | Privacy / Grievance Email: <a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a> | Website: <a href="https://www.maintec.in" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">www.maintec.in</a>
           </div>
 
           <div>
@@ -495,7 +456,10 @@ document.addEventListener('DOMContentLoaded', () => {
             <p><strong>Maintec Financial Advisory Services Private Limited</strong><br>
             CIN: U65991KA2008PTC047500<br>
             Registered office: #3M-215, Outer Ring Road, East of NGEF, Kasturinagar, Bengaluru, Karnataka 560016, India<br>
-            Designated privacy / grievance contact: <a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a></p>
+            Telangana branch office: Plot No. 42, Hitec City Phase 2, Madhapur, Hyderabad, Telangana 500081, India<br>
+            Direct phones: <a href="tel:+918041234567" style="color: #2563eb; text-decoration: underline;">+91 80 4123 4567</a> | <a href="tel:+919845012345" style="color: #2563eb; text-decoration: underline;">+91 98450 12345</a><br>
+            Designated privacy / grievance contact: <a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a><br>
+            Website: <a href="https://www.maintec.in" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">https://www.maintec.in</a></p>
           </div>
         </div>
       `
@@ -503,7 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
     terms: {
       title: 'Website Terms of Use',
       subtitle: 'Section 12 • Public Website Legal Terms of Use',
-      effectiveDate: 'Effective Date: 3 October 2026',
+      effectiveDate: 'Effective Date: 3 October 2026 | Website: https://www.maintec.in',
       html: `
         <div style="display: flex; flex-direction: column; gap: 1.25rem; font-size: 0.8125rem; color: #334155; line-height: 1.65;">
           <div style="padding: 0.75rem 1rem; border-radius: 0.75rem; background: #f8fafc; border: 1px solid #e2e8f0; font-size: 0.75rem; color: #475569;">
@@ -562,7 +526,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           <div>
             <h4 style="font-size: 0.9375rem; font-weight: 700; color: #0f172a;" class="font-heading">11. Governing law and contact</h4>
-            <p>These Terms are governed by the laws of India. Subject to mandatory applicable law and final legal review, the competent courts at Bengaluru, Karnataka will have jurisdiction over website-related disputes. Questions: <a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>.</p>
+            <p>These Terms are governed by the laws of India. Subject to mandatory applicable law and final legal review, the competent courts at Bengaluru, Karnataka will have jurisdiction over website-related disputes. Official Website: <a href="https://www.maintec.in" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">https://www.maintec.in</a> | Phone: <a href="tel:+918041234567" style="color: #2563eb; text-decoration: underline;">+91 80 4123 4567</a> | Questions: <a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>.</p>
           </div>
         </div>
       `
@@ -676,7 +640,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           <div>
             <h4 style="font-size: 0.9375rem; font-weight: 700; color: #0f172a;" class="font-heading">8. Contact</h4>
-            <p>For service enquiries or to report an inaccurate website statement, use the public enquiry channel once published. For privacy complaints, use the dedicated contact given in the Privacy Policy (<a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>).</p>
+            <p>For service enquiries or to report an inaccurate website statement, use the public enquiry channel once published or call <a href="tel:+918041234567" style="color: #2563eb; text-decoration: underline;">+91 80 4123 4567</a>. Official Website: <a href="https://www.maintec.in" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">https://www.maintec.in</a>. For privacy complaints, use the dedicated contact given in the Privacy Policy (<a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>).</p>
           </div>
         </div>
       `

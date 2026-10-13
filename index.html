@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maintec Financial Advisory Services Private Limited | Integrated Business Solutions</title>
-  <meta name="description" content="Maintec Financial Advisory Services Private Limited (CIN: U65991KA2008PTC047500) brings together financial advisory, capital consulting, project coordination, circular economy initiatives and technology-enabled processes.">
+  <meta name="description"
+    content="Maintec Financial Advisory Services Private Limited (CIN: U65991KA2008PTC047500) brings together financial advisory, capital consulting, project coordination, circular economy initiatives and technology-enabled processes.">
   <link rel="icon" type="image/png" href="favicon.png">
-  
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
-  
+
   <style>
     .lucide-icon {
       display: inline-block;
@@ -23,7 +27,7 @@
       stroke-linecap: round;
       stroke-linejoin: round;
     }
-    
+
     /* Policy Reader Dialog Styles */
     .policy-tab-btn {
       padding: 0.5rem 0.875rem;
@@ -36,20 +40,24 @@
       transition: all 0.2s ease;
       cursor: pointer;
     }
+
     .policy-tab-btn:hover {
       background: #e2e8f0;
       color: #0f172a;
     }
+
     .policy-tab-btn.active {
       background: #0f172a;
       color: #ffffff;
       border-color: #0f172a;
     }
+
     .policy-content-body {
       font-size: 0.8125rem;
       color: #334155;
       line-height: 1.65;
     }
+
     .policy-content-body h4 {
       font-size: 0.9375rem;
       font-weight: 700;
@@ -58,17 +66,20 @@
       margin-bottom: 0.375rem;
       font-family: var(--font-heading);
     }
+
     .policy-content-body p {
       margin-bottom: 0.75rem;
     }
+
     .policy-content-body ul {
       margin-left: 1.25rem;
       margin-bottom: 0.75rem;
     }
+
     .policy-content-body li {
       margin-bottom: 0.375rem;
     }
-    
+
     /* Cookie Banner */
     .cookie-banner {
       position: fixed;
@@ -89,12 +100,14 @@
       transform: translateY(150%);
       transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     }
+
     .cookie-banner.visible,
     .cookie-banner.show {
       transform: translateY(0);
     }
   </style>
 </head>
+
 <body class="selection:bg-blue-500/20 selection:text-blue-900">
 
   <!-- =========================================================================
@@ -103,7 +116,7 @@
   <header id="site-header" class="site-header">
     <div class="container header-container">
       <!-- Logo Wordmark -->
-      <a href="#" class="header-logo" id="header-logo">
+      <a href="https://www.maintec.in" class="header-logo" id="header-logo">
         <div class="logo-badge">
           <span>M</span>
           <span class="pulse-dot-wrap">
@@ -134,18 +147,25 @@
 
       <!-- Header Actions -->
       <div class="header-actions">
-        <button class="btn btn-ghost" style="padding: 0.5rem 1rem; font-size: 0.75rem;" id="btn-explore-services-header">
+        <button class="btn btn-ghost" id="btn-explore-services-header">
           Explore Services
         </button>
-        <button class="btn btn-primary" style="padding: 0.5rem 1.125rem; font-size: 0.75rem;" id="btn-book-consultation-header">
+        <button class="btn btn-primary" id="btn-book-consultation-header">
           <span>Get in Touch</span>
-          <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+          <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M7 7h10v10" />
+            <path d="M7 17 17 7" />
+          </svg>
         </button>
       </div>
 
       <!-- Mobile Hamburger Trigger -->
       <button class="mobile-menu-trigger" id="mobile-menu-btn" aria-label="Toggle Menu">
-        <svg class="lucide-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+        <svg class="lucide-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <path d="M4 5h16" />
+          <path d="M4 12h16" />
+          <path d="M4 19h16" />
+        </svg>
       </button>
     </div>
   </header>
@@ -154,53 +174,80 @@
   <div class="mobile-drawer" id="mobile-drawer">
     <div class="mobile-drawer-content">
       <div>
-        <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 1.5rem;">
+        <div
+          style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); margin-bottom: 1.5rem;">
           <div style="display: flex; align-items: center; gap: 0.625rem;">
             <div class="logo-badge" style="width: 2rem; height: 2rem; font-size: 1rem;">M</div>
             <div>
               <div style="font-weight: 800; font-size: 0.9375rem; color: #fff;">MAINTEC</div>
-              <div style="font-size: 0.625rem; color: #22d3ee; font-family: var(--font-mono);">Integrated Business Solutions</div>
+              <div style="font-size: 0.625rem; color: #22d3ee; font-family: var(--font-mono);">Integrated Business
+                Solutions</div>
             </div>
           </div>
           <button id="close-drawer-btn" style="color: #94a3b8; font-size: 1.25rem;">&times;</button>
         </div>
         <nav style="display: flex; flex-direction: column; gap: 0.375rem;">
-          <button class="mobile-nav-link" data-target="#hero" style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
+          <button class="mobile-nav-link" data-target="#hero"
+            style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
             <span>Home</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </button>
-          <button class="mobile-nav-link" data-target="#about" style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
+          <button class="mobile-nav-link" data-target="#about"
+            style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
             <span>About Maintec</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </button>
-          <button class="mobile-nav-link" data-target="#leadership" style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
+          <button class="mobile-nav-link" data-target="#leadership"
+            style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
             <span>Leadership</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </button>
-          <button class="mobile-nav-link" data-target="#services" style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
+          <button class="mobile-nav-link" data-target="#services"
+            style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
             <span>Services</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </button>
-          <button class="mobile-nav-link" data-target="#why" style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
+          <button class="mobile-nav-link" data-target="#why"
+            style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
             <span>Why Maintec</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </button>
-          <button class="mobile-nav-link" data-target="#technology" style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
+          <button class="mobile-nav-link" data-target="#technology"
+            style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
             <span>Technology</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </button>
-          <button class="mobile-nav-link" data-target="#methodology" style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
+          <button class="mobile-nav-link" data-target="#methodology"
+            style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
             <span>Methodology</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </button>
-          <button class="mobile-nav-link" data-target="#industries" style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
+          <button class="mobile-nav-link" data-target="#industries"
+            style="display: flex; align-items: center; justify-content: space-between; padding: 0.625rem 0.75rem; border-radius: 0.75rem; color: #cbd5e1; font-weight: 600; text-align: left;">
             <span>Sectors Served</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="m9 18 6-6-6-6" />
+            </svg>
           </button>
         </nav>
       </div>
 
-      <div style="display: flex; flex-direction: column; gap: 0.75rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
+      <div
+        style="display: flex; flex-direction: column; gap: 0.75rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
         <button class="btn btn-primary" id="drawer-btn-consultation" style="width: 100%; height: 2.75rem;">
           Schedule a Briefing
         </button>
@@ -208,7 +255,7 @@
           Explore Services
         </button>
         <div style="font-size: 0.6875rem; color: #94a3b8; text-align: center; font-family: var(--font-mono);">
-          CIN: U65991KA2008PTC047500
+          CIN: U65991KA2008PTC047500 • www.maintec.in
         </div>
       </div>
     </div>
@@ -231,10 +278,14 @@
           <!-- Hero Left Column: Copy & CTAs -->
           <div style="text-align: left; display: flex; flex-direction: column; gap: 1.5rem;">
             <!-- Verified Entity Badge -->
-            <div style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.375rem 0.875rem; border-radius: 9999px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; font-weight: 600; color: #67e8f9; width: fit-content;" class="animate-fade-in">
+            <div
+              style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.375rem 0.875rem; border-radius: 9999px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.15); font-size: 0.75rem; font-weight: 600; color: #67e8f9; width: fit-content;"
+              class="animate-fade-in">
               <span style="position: relative; display: flex; width: 0.5rem; height: 0.5rem;">
-                <span class="animate-ping" style="position: absolute; width: 100%; height: 100%; border-radius: 9999px; background-color: #22d3ee; opacity: 0.75;"></span>
-                <span style="position: relative; width: 0.5rem; height: 0.5rem; border-radius: 9999px; background-color: #22d3ee;"></span>
+                <span class="animate-ping"
+                  style="position: absolute; width: 100%; height: 100%; border-radius: 9999px; background-color: #22d3ee; opacity: 0.75;"></span>
+                <span
+                  style="position: relative; width: 0.5rem; height: 0.5rem; border-radius: 9999px; background-color: #22d3ee;"></span>
               </span>
               <span>Entrepreneur-Led Business Advisory</span>
               <span style="color: rgba(255,255,255,0.4);">•</span>
@@ -249,33 +300,53 @@
 
             <!-- Description -->
             <p class="hero-description">
-              <strong style="color: #ffffff;">Maintec Financial Advisory Services Private Limited</strong> brings together financial advisory, capital consulting, project coordination, circular economy initiatives and technology-enabled processes to support entrepreneurs, MSMEs and growing organisations.
+              <strong style="color: #ffffff;">Maintec Financial Advisory Services Private Limited</strong> brings
+              together financial advisory, capital consulting, project coordination, circular economy initiatives and
+              technology-enabled processes to support entrepreneurs, MSMEs and growing organisations.
             </p>
 
             <!-- CTA Buttons -->
             <div class="hero-actions">
-              <button class="btn btn-primary" style="height: 3.25rem; padding: 0 2rem; font-size: 0.9375rem; font-weight: 700;" id="hero-btn-book">
+              <button class="btn btn-primary"
+                style="height: 3.25rem; padding: 0 2rem; font-size: 0.9375rem; font-weight: 700;" id="hero-btn-book">
                 <span>Request Advisory Briefing</span>
-                <svg class="lucide-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                <svg class="lucide-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
               </button>
-              <button class="btn btn-ghost" style="height: 3.25rem; padding: 0 1.75rem; font-size: 0.9375rem; font-weight: 600;" id="hero-btn-services">
+              <button class="btn btn-ghost"
+                style="height: 3.25rem; padding: 0 1.75rem; font-size: 0.9375rem; font-weight: 600;"
+                id="hero-btn-services">
                 <span>Explore Services</span>
-                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
               </button>
             </div>
 
             <!-- 3 Feature Points Row -->
             <div class="hero-feature-row">
               <div class="hero-feat-item">
-                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
                 <span>Over 30+ Yrs Banking Mastery</span>
               </div>
               <div class="hero-feat-item">
-                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34d399"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34d399">
+                  <path
+                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
                 <span>Circular Economy & Impact</span>
               </div>
               <div class="hero-feat-item">
-                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c084fc"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
+                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c084fc">
+                  <path
+                    d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+                </svg>
                 <span>Coordinated Legal & Tax</span>
               </div>
             </div>
@@ -285,19 +356,27 @@
           <div style="display: flex; justify-content: center; width: 100%;">
             <div class="hero-3d-wrapper">
               <!-- Ambient Halo Glows -->
-              <div style="position: absolute; top: -3rem; left: -3rem; width: 16rem; height: 16rem; border-radius: 9999px; background: rgba(59, 130, 246, 0.2); filter: blur(48px); pointer-events: none;" class="animate-pulse-glow"></div>
-              <div style="position: absolute; bottom: -2.5rem; right: -2.5rem; width: 18rem; height: 18rem; border-radius: 9999px; background: rgba(6, 182, 212, 0.2); filter: blur(48px); pointer-events: none;"></div>
+              <div
+                style="position: absolute; top: -3rem; left: -3rem; width: 16rem; height: 16rem; border-radius: 9999px; background: rgba(59, 130, 246, 0.2); filter: blur(48px); pointer-events: none;"
+                class="animate-pulse-glow"></div>
+              <div
+                style="position: absolute; bottom: -2.5rem; right: -2.5rem; width: 18rem; height: 18rem; border-radius: 9999px; background: rgba(6, 182, 212, 0.2); filter: blur(48px); pointer-events: none;">
+              </div>
 
               <div class="perspective-viewport">
                 <!-- Top Interactive Controls Bar -->
                 <div class="hero-3d-header">
                   <div style="display: flex; align-items: center; gap: 0.5rem;">
-                    <span style="display: flex; width: 0.625rem; height: 0.625rem; border-radius: 9999px; background-color: #22d3ee;" class="animate-ping"></span>
-                    <span style="font-size: 0.75rem; font-weight: 600; color: #67e8f9; font-family: var(--font-mono); letter-spacing: 0.05em; text-transform: uppercase;">
+                    <span
+                      style="display: flex; width: 0.625rem; height: 0.625rem; border-radius: 9999px; background-color: #22d3ee;"
+                      class="animate-ping"></span>
+                    <span
+                      style="font-size: 0.75rem; font-weight: 600; color: #67e8f9; font-family: var(--font-mono); letter-spacing: 0.05em; text-transform: uppercase;">
                       Advisory Workflow Active
                     </span>
                   </div>
-                  <div style="display: flex; gap: 0.375rem; background: rgba(0, 0, 0, 0.3); padding: 0.25rem; border-radius: 0.75rem; border: 1px solid rgba(255, 255, 255, 0.1);">
+                  <div
+                    style="display: flex; gap: 0.375rem; background: rgba(0, 0, 0, 0.3); padding: 0.25rem; border-radius: 0.75rem; border: 1px solid rgba(255, 255, 255, 0.1);">
                     <button class="hero-tab-pill-btn active" data-tab="capital">Capital</button>
                     <button class="hero-tab-pill-btn" data-tab="sustainability">Sustainability</button>
                     <button class="hero-tab-pill-btn" data-tab="workflow">Workflow</button>
@@ -306,104 +385,124 @@
 
                 <!-- 3D Transform Container -->
                 <div class="isometric-transform-card" id="isometric-3d-card">
-                  <svg viewBox="0 0 600 420" style="width: 100%; height: auto; filter: drop-shadow(0 25px 25px rgba(0,0,0,0.4)); overflow: visible;">
+                  <svg viewBox="0 0 600 420"
+                    style="width: 100%; height: auto; filter: drop-shadow(0 25px 25px rgba(0,0,0,0.4)); overflow: visible;">
                     <defs>
                       <linearGradient id="gridGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
-                        <stop offset="50%" stop-color="#818CF8" stop-opacity="0.2"/>
-                        <stop offset="100%" stop-color="#C084FC" stop-opacity="0.05"/>
+                        <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4" />
+                        <stop offset="50%" stop-color="#818CF8" stop-opacity="0.2" />
+                        <stop offset="100%" stop-color="#C084FC" stop-opacity="0.05" />
                       </linearGradient>
                       <linearGradient id="planeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#1E293B" stop-opacity="0.95"/>
-                        <stop offset="100%" stop-color="#0F172A" stop-opacity="0.98"/>
+                        <stop offset="0%" stop-color="#1E293B" stop-opacity="0.95" />
+                        <stop offset="100%" stop-color="#0F172A" stop-opacity="0.98" />
                       </linearGradient>
                       <linearGradient id="barGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
-                        <stop offset="0%" stop-color="#1E40AF"/>
-                        <stop offset="100%" stop-color="#38BDF8"/>
+                        <stop offset="0%" stop-color="#1E40AF" />
+                        <stop offset="100%" stop-color="#38BDF8" />
                       </linearGradient>
                       <linearGradient id="barGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
-                        <stop offset="0%" stop-color="#064E3B"/>
-                        <stop offset="100%" stop-color="#34D399"/>
+                        <stop offset="0%" stop-color="#064E3B" />
+                        <stop offset="100%" stop-color="#34D399" />
                       </linearGradient>
                       <linearGradient id="barGrad3" x1="0%" y1="100%" x2="0%" y2="0%">
-                        <stop offset="0%" stop-color="#4C1D95"/>
-                        <stop offset="100%" stop-color="#C084FC"/>
+                        <stop offset="0%" stop-color="#4C1D95" />
+                        <stop offset="100%" stop-color="#C084FC" />
                       </linearGradient>
                       <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-                        <feGaussianBlur stdDeviation="6" result="blur"/>
-                        <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                        <feGaussianBlur stdDeviation="6" result="blur" />
+                        <feComposite in="SourceGraphic" in2="blur" operator="over" />
                       </filter>
                     </defs>
 
                     <!-- Isometric Grid Plane -->
-                    <polygon points="300,30 570,165 300,300 30,165" fill="url(#planeGrad)" stroke="url(#gridGrad)" stroke-width="2" style="transition: all 0.5s ease;"/>
+                    <polygon points="300,30 570,165 300,300 30,165" fill="url(#planeGrad)" stroke="url(#gridGrad)"
+                      stroke-width="2" style="transition: all 0.5s ease;" />
                     <g stroke="#38BDF8" stroke-opacity="0.12" stroke-width="1">
-                      <line x1="120" y1="75" x2="390" y2="210"/>
-                      <line x1="210" y1="120" x2="480" y2="255"/>
-                      <line x1="210" y1="120" x2="120" y2="255"/>
-                      <line x1="390" y1="75" x2="300" y2="210"/>
-                      <line x1="480" y1="120" x2="390" y2="255"/>
+                      <line x1="120" y1="75" x2="390" y2="210" />
+                      <line x1="210" y1="120" x2="480" y2="255" />
+                      <line x1="210" y1="120" x2="120" y2="255" />
+                      <line x1="390" y1="75" x2="300" y2="210" />
+                      <line x1="480" y1="120" x2="390" y2="255" />
                     </g>
                     <!-- Plane Thickness Bevels -->
-                    <polygon points="30,165 300,300 300,320 30,185" fill="#090D16" stroke="rgba(255,255,255,0.08)"/>
-                    <polygon points="300,300 570,165 570,185 300,320" fill="#0F172A" stroke="rgba(255,255,255,0.08)"/>
+                    <polygon points="30,165 300,300 300,320 30,185" fill="#090D16" stroke="rgba(255,255,255,0.08)" />
+                    <polygon points="300,300 570,165 570,185 300,320" fill="#0F172A" stroke="rgba(255,255,255,0.08)" />
 
                     <!-- Data Stream Polyline Paths -->
-                    <path d="M 120,160 Q 200,120 300,165 T 480,180" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-dasharray="6 4" class="animate-pulse"/>
-                    <path d="M 210,210 Q 300,240 400,200" fill="none" stroke="#A78BFA" stroke-width="2" stroke-dasharray="4 4"/>
+                    <path d="M 120,160 Q 200,120 300,165 T 480,180" fill="none" stroke="#38BDF8" stroke-width="2.5"
+                      stroke-dasharray="6 4" class="animate-pulse" />
+                    <path d="M 210,210 Q 300,240 400,200" fill="none" stroke="#A78BFA" stroke-width="2"
+                      stroke-dasharray="4 4" />
 
                     <!-- 3D Bar 1: Capital Advisory -->
-                    <g class="hero-3d-bar" data-tip="Capital Advisory: 30+ Yrs Banking Insight" style="cursor: pointer; transition: transform 0.2s ease;">
-                      <polygon points="170,195 195,207 195,127 170,115" fill="#1E3A8A"/>
-                      <polygon points="195,207 220,195 220,115 195,127" fill="#2563EB"/>
-                      <polygon points="170,115 195,103 220,115 195,127" fill="#60A5FA"/>
+                    <g class="hero-3d-bar" data-tip="Capital Advisory: 30+ Yrs Banking Insight"
+                      style="cursor: pointer; transition: transform 0.2s ease;">
+                      <polygon points="170,195 195,207 195,127 170,115" fill="#1E3A8A" />
+                      <polygon points="195,207 220,195 220,115 195,127" fill="#2563EB" />
+                      <polygon points="170,115 195,103 220,115 195,127" fill="#60A5FA" />
                     </g>
 
                     <!-- 3D Bar 2: Circular Economy & Sustainability -->
-                    <g class="hero-3d-bar" data-tip="Sustainability & Circular Economy in AP" style="cursor: pointer; transition: transform 0.2s ease;">
-                      <polygon points="260,225 285,237 285,107 260,95" fill="#064E3B"/>
-                      <polygon points="285,237 310,225 310,95 285,107" fill="#059669"/>
-                      <polygon points="310,95 285,83 260,95 285,107" fill="#34D399"/>
+                    <g class="hero-3d-bar" data-tip="Sustainability & Circular Economy in AP"
+                      style="cursor: pointer; transition: transform 0.2s ease;">
+                      <polygon points="260,225 285,237 285,107 260,95" fill="#064E3B" />
+                      <polygon points="285,237 310,225 310,95 285,107" fill="#059669" />
+                      <polygon points="310,95 285,83 260,95 285,107" fill="#34D399" />
                     </g>
 
                     <!-- 3D Bar 3: Strategic Enterprise Structuring -->
-                    <g class="hero-3d-bar" data-tip="Strategic Business & Project Coordination" style="cursor: pointer; transition: transform 0.2s ease;">
-                      <polygon points="350,210 375,222 375,82 350,70" fill="#4C1D95"/>
-                      <polygon points="375,222 400,210 400,70 375,82" fill="#7C3AED"/>
-                      <polygon points="400,70 375,58 350,70 375,82" fill="#C084FC"/>
+                    <g class="hero-3d-bar" data-tip="Strategic Business & Project Coordination"
+                      style="cursor: pointer; transition: transform 0.2s ease;">
+                      <polygon points="350,210 375,222 375,82 350,70" fill="#4C1D95" />
+                      <polygon points="375,222 400,210 400,70 375,82" fill="#7C3AED" />
+                      <polygon points="400,70 375,58 350,70 375,82" fill="#C084FC" />
                     </g>
 
                     <!-- Center Orbital Rings & Core Pulse -->
                     <g transform="translate(300, 160)">
-                      <ellipse cx="0" cy="0" rx="60" ry="25" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-opacity="0.8" class="animate-spin-slow"/>
-                      <ellipse cx="0" cy="0" rx="45" ry="18" fill="none" stroke="#C084FC" stroke-width="1" stroke-dasharray="5 3"/>
-                      <circle cx="0" cy="0" r="14" fill="url(#barGrad1)" filter="url(#neonGlow)"/>
-                      <circle cx="0" cy="0" r="8" fill="#FFFFFF"/>
+                      <ellipse cx="0" cy="0" rx="60" ry="25" fill="none" stroke="#38BDF8" stroke-width="1.5"
+                        stroke-opacity="0.8" class="animate-spin-slow" />
+                      <ellipse cx="0" cy="0" rx="45" ry="18" fill="none" stroke="#C084FC" stroke-width="1"
+                        stroke-dasharray="5 3" />
+                      <circle cx="0" cy="0" r="14" fill="url(#barGrad1)" filter="url(#neonGlow)" />
+                      <circle cx="0" cy="0" r="8" fill="#FFFFFF" />
                     </g>
 
                     <!-- Satellite Nodes -->
-                    <g transform="translate(450, 120)" class="hero-3d-bar" data-tip="Lender & Bank Coordination" style="cursor: pointer;">
-                      <polygon points="0,-15 15,-7 15,10 0,18 -15,10 -15,-7" fill="rgba(255,255,255,0.15)" stroke="#38BDF8" stroke-width="1.5"/>
-                      <circle cx="0" cy="1" r="4" fill="#38BDF8"/>
+                    <g transform="translate(450, 120)" class="hero-3d-bar" data-tip="Lender & Bank Coordination"
+                      style="cursor: pointer;">
+                      <polygon points="0,-15 15,-7 15,10 0,18 -15,10 -15,-7" fill="rgba(255,255,255,0.15)"
+                        stroke="#38BDF8" stroke-width="1.5" />
+                      <circle cx="0" cy="1" r="4" fill="#38BDF8" />
                     </g>
 
-                    <g transform="translate(130, 100)" class="hero-3d-bar" data-tip="Institutional & Artisan Networks" style="cursor: pointer;">
-                      <polygon points="0,-12 12,-6 12,8 0,14 -12,8 -12,-6" fill="rgba(255,255,255,0.15)" stroke="#A78BFA" stroke-width="1.5"/>
-                      <circle cx="0" cy="1" r="3.5" fill="#C084FC"/>
+                    <g transform="translate(130, 100)" class="hero-3d-bar" data-tip="Institutional & Artisan Networks"
+                      style="cursor: pointer;">
+                      <polygon points="0,-12 12,-6 12,8 0,14 -12,8 -12,-6" fill="rgba(255,255,255,0.15)"
+                        stroke="#A78BFA" stroke-width="1.5" />
+                      <circle cx="0" cy="1" r="3.5" fill="#C084FC" />
                     </g>
                   </svg>
 
                   <!-- Floating Status Card 1 (Top Left) -->
                   <div class="hero-stat-float-card-1">
-                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.375rem;">
+                    <div
+                      style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.375rem;">
                       <span style="font-size: 0.6875rem; color: #94a3b8; font-weight: 500;">Corporate Identity</span>
-                      <span style="font-size: 0.6875rem; font-weight: 600; color: #34d399; background: rgba(16, 185, 129, 0.1); padding: 0.125rem 0.375rem; border-radius: 0.25rem;">
+                      <span
+                        style="font-size: 0.6875rem; font-weight: 600; color: #34d399; background: rgba(16, 185, 129, 0.1); padding: 0.125rem 0.375rem; border-radius: 0.25rem;">
                         Active
                       </span>
                     </div>
                     <div style="font-size: 1.0625rem; font-weight: 800; color: #ffffff;">MCA Registered</div>
-                    <div style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.375rem; font-size: 0.6875rem; color: #67e8f9; font-family: var(--font-mono);">
-                      <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <div
+                      style="margin-top: 0.5rem; display: flex; align-items: center; gap: 0.375rem; font-size: 0.6875rem; color: #67e8f9; font-family: var(--font-mono);">
+                      <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="m9 12 2 2 4-4" />
+                      </svg>
                       <span>CIN: U65991KA2008PTC047500</span>
                     </div>
                   </div>
@@ -411,16 +510,27 @@
                   <!-- Floating Status Card 2 (Bottom Right) -->
                   <div class="hero-stat-float-card-2">
                     <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
-                      <div style="padding: 0.375rem; border-radius: 0.5rem; background: rgba(6, 182, 212, 0.2); color: #67e8f9;">
-                        <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="8" height="8" x="8" y="8" rx="1"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="M2 12h2"/><path d="M20 12h2"/></svg>
+                      <div
+                        style="padding: 0.375rem; border-radius: 0.5rem; background: rgba(6, 182, 212, 0.2); color: #67e8f9;">
+                        <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor">
+                          <rect width="16" height="16" x="4" y="4" rx="2" />
+                          <rect width="8" height="8" x="8" y="8" rx="1" />
+                          <path d="M12 2v2" />
+                          <path d="M12 20v2" />
+                          <path d="M2 12h2" />
+                          <path d="M20 12h2" />
+                        </svg>
                       </div>
                       <div>
-                        <div style="font-size: 0.75rem; font-weight: 600; color: #ffffff;">MineSolutions.AI Layer</div>
+                        <div style="font-size: 0.75rem; font-weight: 600; color: #ffffff;">MineSolutions.AI Engine</div>
                         <div style="font-size: 0.625rem; color: #94a3b8;">Structured Workflow Support</div>
                       </div>
                     </div>
-                    <div style="padding: 0.5rem; border-radius: 0.75rem; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); font-size: 0.6875rem; color: #cbd5e1; line-height: 1.4;">
-                      <span style="color: #22d3ee; font-weight: 600;">Focus:</span> Connecting business understanding with practical execution and transparent digital organisation.
+                    <div
+                      style="padding: 0.5rem; border-radius: 0.75rem; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); font-size: 0.6875rem; color: #cbd5e1; line-height: 1.4;">
+                      <span style="color: #22d3ee; font-weight: 600;">Focus:</span> Connecting business understanding
+                      with practical execution and transparent digital organisation.
                     </div>
                   </div>
 
@@ -444,17 +554,26 @@
           <div class="stat-card">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
               <div class="stat-icon-wrap" style="background: #eff6ff; border-color: #bfdbfe; color: #2563eb;">
-                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/></svg>
+                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+                  <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+                  <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+                </svg>
               </div>
               <span class="badge" style="background: #f1f5f9; color: #475569;">
-                <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
                 MCA Extract
               </span>
             </div>
             <div>
               <div class="stat-number font-heading" data-target="2008" data-prefix="" data-suffix="">2008</div>
-              <div style="font-size: 0.875rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">Year Incorporated</div>
-              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Incorporated on 20 Aug 2008 • ROC Bangalore</p>
+              <div style="font-size: 0.875rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">Year Incorporated
+              </div>
+              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Incorporated on 20 Aug 2008 • ROC
+                Bangalore</p>
             </div>
           </div>
 
@@ -462,17 +581,26 @@
           <div class="stat-card">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
               <div class="stat-icon-wrap" style="background: #ecfeff; border-color: #a5f3fc; color: #0891b2;">
-                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="8" r="6"/><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/></svg>
+                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <circle cx="12" cy="8" r="6" />
+                  <path
+                    d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+                </svg>
               </div>
               <span class="badge" style="background: #f1f5f9; color: #475569;">
-                <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
                 Leadership
               </span>
             </div>
             <div>
               <div class="stat-number font-heading" data-target="30" data-prefix="" data-suffix="+ Yrs">0</div>
-              <div style="font-size: 0.875rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">Banking Mastery</div>
-              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Over three decades of lending & credit understanding</p>
+              <div style="font-size: 0.875rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">Banking Mastery
+              </div>
+              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Over three decades of lending & credit
+                understanding</p>
             </div>
           </div>
 
@@ -480,17 +608,24 @@
           <div class="stat-card">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
               <div class="stat-icon-wrap" style="background: #ecfdf5; border-color: #a7f3d0; color: #059669;">
-                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
               </div>
               <span class="badge" style="background: #f1f5f9; color: #475569;">
-                <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
                 Focus
               </span>
             </div>
             <div>
               <div class="stat-number font-heading" data-target="5" data-prefix="" data-suffix="+">0</div>
-              <div style="font-size: 0.875rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">Key Impact Sectors</div>
-              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">MSMEs, Sustainability, Circular Economy & Capital</p>
+              <div style="font-size: 0.875rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">Key Impact
+                Sectors</div>
+              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">MSMEs, Sustainability, Circular
+                Economy & Capital</p>
             </div>
           </div>
 
@@ -498,17 +633,25 @@
           <div class="stat-card">
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
               <div class="stat-icon-wrap" style="background: #faf5ff; border-color: #e9d5ff; color: #7c3aed;">
-                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></svg>
+                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="m22 7-8.5 8.5-5-5L2 17" />
+                  <path d="M16 7h6v6" />
+                </svg>
               </div>
               <span class="badge" style="background: #f1f5f9; color: #475569;">
-                <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10b981">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
                 Verified
               </span>
             </div>
             <div>
               <div class="stat-number font-heading" data-target="100" data-prefix="" data-suffix="%">0</div>
-              <div style="font-size: 0.875rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">Entrepreneur Focus</div>
-              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Tailored financing insight & collaborative execution</p>
+              <div style="font-size: 0.875rem; font-weight: 700; color: #1e293b; margin-top: 0.25rem;">Entrepreneur
+                Focus</div>
+              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Tailored financing insight &
+                collaborative execution</p>
             </div>
           </div>
         </div>
@@ -524,7 +667,13 @@
           <!-- About Left Copy -->
           <div style="display: flex; flex-direction: column; gap: 1.5rem; text-align: left;">
             <div class="badge badge-blue" style="width: fit-content;">
-              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect x="16" y="16" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="9" y="2" width="6" height="6" rx="1"/><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"/><path d="M12 12V8"/></svg>
+              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect x="16" y="16" width="6" height="6" rx="1" />
+                <rect x="2" y="16" width="6" height="6" rx="1" />
+                <rect x="9" y="2" width="6" height="6" rx="1" />
+                <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3" />
+                <path d="M12 12V8" />
+              </svg>
               <span>About Maintec Financial Advisory</span>
             </div>
 
@@ -538,29 +687,51 @@
             </div>
 
             <p style="color: #475569; font-size: 0.9375rem; line-height: 1.625;">
-              <strong>Maintec Financial Advisory Services Private Limited</strong> is an entrepreneur-led business advisory company that connects experience in banking and capital mobilisation with strategic project development, sustainable enterprise initiatives and coordinated professional support. Its leadership brings together more than three decades of banking experience and practical engagement in government-linked projects, rural entrepreneurship and circular-economy development in Andhra Pradesh. The company aims to help businesses navigate financing, growth, organisational requirements and implementation through a coordinated advisory model.
+              <strong>Maintec Financial Advisory Services Private Limited</strong> is an entrepreneur-led business
+              advisory company that connects experience in banking and capital mobilisation with strategic project
+              development, sustainable enterprise initiatives and coordinated professional support. Its leadership
+              brings together more than three decades of banking experience and practical engagement in
+              government-linked projects, rural entrepreneurship and circular-economy development in Andhra Pradesh. The
+              company aims to help businesses navigate financing, growth, organisational requirements and implementation
+              through a coordinated advisory model.
             </p>
 
             <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-              <div style="padding: 1.125rem 1.25rem; border-radius: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.375rem;">
-                <div style="font-size: 0.8125rem; font-weight: 700; color: #0f172a;" class="font-heading">Company History & Incorporation</div>
+              <div
+                style="padding: 1.125rem 1.25rem; border-radius: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.375rem;">
+                <div style="font-size: 0.8125rem; font-weight: 700; color: #0f172a;" class="font-heading">Company
+                  History & Incorporation</div>
                 <p style="font-size: 0.8125rem; color: #64748b; line-height: 1.55;">
-                  Maintec Financial Advisory Services Private Limited was incorporated on 20 August 2008 (CIN: U65991KA2008PTC047500, ROC Bangalore). The website positioning reflects the backgrounds of its current entrepreneurial leadership in banking, fund-raising consultancy and sustainable enterprise development. A fuller company timeline, including changes in ownership, management and operations since incorporation, remains to be confirmed before a detailed history is published.
+                  Maintec Financial Advisory Services Private Limited was incorporated on 20 August 2008 (CIN:
+                  U65991KA2008PTC047500, ROC Bangalore). The website positioning reflects the backgrounds of its current
+                  entrepreneurial leadership in banking, fund-raising consultancy and sustainable enterprise
+                  development. A fuller company timeline, including changes in ownership, management and operations
+                  since incorporation, remains to be confirmed before a detailed history is published.
                 </p>
               </div>
 
-              <div style="padding: 1.125rem 1.25rem; border-radius: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.375rem;">
-                <div style="font-size: 0.8125rem; font-weight: 700; color: #0f172a;" class="font-heading">Our Professional Philosophy</div>
+              <div
+                style="padding: 1.125rem 1.25rem; border-radius: 1rem; background: #f8fafc; border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.375rem;">
+                <div style="font-size: 0.8125rem; font-weight: 700; color: #0f172a;" class="font-heading">Our
+                  Professional Philosophy</div>
                 <p style="font-size: 0.8125rem; color: #64748b; line-height: 1.55;">
-                  Understand the business first. Bring together relevant expertise, practical financing insight and collaborative execution. Support entrepreneurs with clear communication, transparent processes and solutions suited to their commercial and social objectives. Use digital tools to improve organisation and accountability while relying on properly qualified professionals for regulated tax, audit, legal and secretarial work.
+                  Understand the business first. Bring together relevant expertise, practical financing insight and
+                  collaborative execution. Support entrepreneurs with clear communication, transparent processes and
+                  solutions suited to their commercial and social objectives. Use digital tools to improve organisation
+                  and accountability while relying on properly qualified professionals for regulated tax, audit, legal
+                  and secretarial work.
                 </p>
               </div>
             </div>
 
             <div style="padding-top: 0.25rem;">
-              <button class="btn btn-dark" style="height: 2.75rem; padding: 0 1.5rem; font-size: 0.875rem;" id="about-btn-partner">
+              <button class="btn btn-dark" style="height: 2.75rem; padding: 0 1.5rem; font-size: 0.875rem;"
+                id="about-btn-partner">
                 <span>Connect With Maintec</span>
-                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
               </button>
             </div>
           </div>
@@ -568,18 +739,28 @@
           <!-- About Right: 5-Pillar Architecture Diagram Card ($l) -->
           <div style="display: flex; justify-content: center; width: 100%;">
             <div class="architecture-diagram-card">
-              <div style="padding: 1.5rem; border-radius: var(--radius-3xl); background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(248,250,252,0.9)); border: 1px solid rgba(226,232,240,0.9); box-shadow: 0 25px 50px -12px rgba(15,23,42,0.08); backdrop-filter: blur(16px);">
+              <div
+                style="padding: 1.5rem; border-radius: var(--radius-3xl); background: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(248,250,252,0.9)); border: 1px solid rgba(226,232,240,0.9); box-shadow: 0 25px 50px -12px rgba(15,23,42,0.08); backdrop-filter: blur(16px);">
                 <!-- Diagram Card Header -->
-                <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 1rem; margin-bottom: 1.25rem; border-bottom: 1px solid #f1f5f9;">
+                <div
+                  style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 1rem; margin-bottom: 1.25rem; border-bottom: 1px solid #f1f5f9;">
                   <div style="display: flex; align-items: center; gap: 0.625rem;">
-                    <div style="width: 2rem; height: 2rem; border-radius: 0.75rem; background: rgba(37,99,235,0.1); color: #2563eb; display: flex; align-items: center; justify-content: center; font-weight: 800;">M</div>
+                    <div
+                      style="width: 2rem; height: 2rem; border-radius: 0.75rem; background: rgba(37,99,235,0.1); color: #2563eb; display: flex; align-items: center; justify-content: center; font-weight: 800;">
+                      M</div>
                     <div>
-                      <div style="font-size: 0.875rem; font-weight: 800; color: #0f172a; font-family: var(--font-heading);">Integrated Advisory Architecture</div>
+                      <div
+                        style="font-size: 0.875rem; font-weight: 800; color: #0f172a; font-family: var(--font-heading);">
+                        Integrated Advisory Architecture</div>
                       <div style="font-size: 0.6875rem; color: #64748b;">Coordinated Enterprise Advisory Model</div>
                     </div>
                   </div>
                   <span class="badge" style="background: #ecfdf5; color: #059669; border: 1px solid #a7f3d0;">
-                    <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+                    <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor">
+                      <path d="M21.801 10A10 10 0 1 1 17 3.335" />
+                      <path d="m9 11 3 3L22 4" />
+                    </svg>
                     Coordinated
                   </span>
                 </div>
@@ -588,86 +769,113 @@
                 <svg viewBox="0 0 480 320" style="width: 100%; height: auto; overflow: visible;">
                   <defs>
                     <linearGradient id="centerPillarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stop-color="#2563EB"/>
-                      <stop offset="100%" stop-color="#06B6D4"/>
+                      <stop offset="0%" stop-color="#2563EB" />
+                      <stop offset="100%" stop-color="#06B6D4" />
                     </linearGradient>
                     <linearGradient id="glassPillar" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
-                      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0.85"/>
+                      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+                      <stop offset="100%" stop-color="#F1F5F9" stop-opacity="0.85" />
                     </linearGradient>
                     <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
-                      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.08"/>
+                      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.08" />
                     </filter>
                   </defs>
 
                   <!-- Ground Isometric Plane -->
-                  <polygon points="240,40 440,140 240,240 40,140" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5"/>
-                  
+                  <polygon points="240,40 440,140 240,240 40,140" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.5" />
+
                   <!-- Sync Connecting Lines -->
-                  <path d="M 120,100 L 240,160 L 360,100 M 120,180 L 240,160 L 360,180" fill="none" stroke="#93C5FD" stroke-width="2" stroke-dasharray="4 4"/>
+                  <path d="M 120,100 L 240,160 L 360,100 M 120,180 L 240,160 L 360,180" fill="none" stroke="#93C5FD"
+                    stroke-width="2" stroke-dasharray="4 4" />
 
                   <!-- Pillar 1: Finance & Funding -->
                   <g transform="translate(100, 75)" filter="url(#softShadow)" style="cursor: pointer;">
-                    <polygon points="0,0 35,17 0,35 -35,17" fill="url(#glassPillar)" stroke="#3B82F6" stroke-width="1.5"/>
-                    <polygon points="-35,17 0,35 0,55 -35,37" fill="#E2E8F0"/>
-                    <polygon points="0,35 35,17 35,37 0,55" fill="#CBD5E1"/>
-                    <circle cx="0" cy="17" r="8" fill="#3B82F6"/>
-                    <text x="0" y="70" text-anchor="middle" fill="#1E293B" font-size="11" font-weight="600">Finance & Funding</text>
+                    <polygon points="0,0 35,17 0,35 -35,17" fill="url(#glassPillar)" stroke="#3B82F6"
+                      stroke-width="1.5" />
+                    <polygon points="-35,17 0,35 0,55 -35,37" fill="#E2E8F0" />
+                    <polygon points="0,35 35,17 35,37 0,55" fill="#CBD5E1" />
+                    <circle cx="0" cy="17" r="8" fill="#3B82F6" />
+                    <text x="0" y="70" text-anchor="middle" fill="#1E293B" font-size="11" font-weight="600">Finance &
+                      Funding</text>
                   </g>
 
                   <!-- Pillar 2: Strategic Advisory -->
                   <g transform="translate(380, 75)" filter="url(#softShadow)" style="cursor: pointer;">
-                    <polygon points="0,0 35,17 0,35 -35,17" fill="url(#glassPillar)" stroke="#8B5CF6" stroke-width="1.5"/>
-                    <polygon points="-35,17 0,35 0,55 -35,37" fill="#E2E8F0"/>
-                    <polygon points="0,35 35,17 35,37 0,55" fill="#CBD5E1"/>
-                    <circle cx="0" cy="17" r="8" fill="#8B5CF6"/>
-                    <text x="0" y="70" text-anchor="middle" fill="#1E293B" font-size="11" font-weight="600">Strategic Advisory</text>
+                    <polygon points="0,0 35,17 0,35 -35,17" fill="url(#glassPillar)" stroke="#8B5CF6"
+                      stroke-width="1.5" />
+                    <polygon points="-35,17 0,35 0,55 -35,37" fill="#E2E8F0" />
+                    <polygon points="0,35 35,17 35,37 0,55" fill="#CBD5E1" />
+                    <circle cx="0" cy="17" r="8" fill="#8B5CF6" />
+                    <text x="0" y="70" text-anchor="middle" fill="#1E293B" font-size="11" font-weight="600">Strategic
+                      Advisory</text>
                   </g>
 
                   <!-- Pillar 3: Circular Economy & Sustainability -->
                   <g transform="translate(100, 205)" filter="url(#softShadow)" style="cursor: pointer;">
-                    <polygon points="0,0 35,17 0,35 -35,17" fill="url(#glassPillar)" stroke="#10B981" stroke-width="1.5"/>
-                    <polygon points="-35,17 0,35 0,55 -35,37" fill="#E2E8F0"/>
-                    <polygon points="0,35 35,17 35,37 0,55" fill="#CBD5E1"/>
-                    <circle cx="0" cy="17" r="8" fill="#10B981"/>
-                    <text x="0" y="70" text-anchor="middle" fill="#1E293B" font-size="11" font-weight="600">Circular Economy</text>
+                    <polygon points="0,0 35,17 0,35 -35,17" fill="url(#glassPillar)" stroke="#10B981"
+                      stroke-width="1.5" />
+                    <polygon points="-35,17 0,35 0,55 -35,37" fill="#E2E8F0" />
+                    <polygon points="0,35 35,17 35,37 0,55" fill="#CBD5E1" />
+                    <circle cx="0" cy="17" r="8" fill="#10B981" />
+                    <text x="0" y="70" text-anchor="middle" fill="#1E293B" font-size="11" font-weight="600">Circular
+                      Economy</text>
                   </g>
 
                   <!-- Pillar 4: Tax & Legal Coordination -->
                   <g transform="translate(380, 205)" filter="url(#softShadow)" style="cursor: pointer;">
-                    <polygon points="0,0 35,17 0,35 -35,17" fill="url(#glassPillar)" stroke="#06B6D4" stroke-width="1.5"/>
-                    <polygon points="-35,17 0,35 0,55 -35,37" fill="#E2E8F0"/>
-                    <polygon points="0,35 35,17 35,37 0,55" fill="#CBD5E1"/>
-                    <circle cx="0" cy="17" r="8" fill="#06B6D4"/>
-                    <text x="0" y="70" text-anchor="middle" fill="#1E293B" font-size="11" font-weight="600">Legal Coordination</text>
+                    <polygon points="0,0 35,17 0,35 -35,17" fill="url(#glassPillar)" stroke="#06B6D4"
+                      stroke-width="1.5" />
+                    <polygon points="-35,17 0,35 0,55 -35,37" fill="#E2E8F0" />
+                    <polygon points="0,35 35,17 35,37 0,55" fill="#CBD5E1" />
+                    <circle cx="0" cy="17" r="8" fill="#06B6D4" />
+                    <text x="0" y="70" text-anchor="middle" fill="#1E293B" font-size="11" font-weight="600">Legal
+                      Coordination</text>
                   </g>
 
                   <!-- Center: Maintec Hub -->
                   <g transform="translate(240, 140)" filter="url(#softShadow)">
-                    <polygon points="0,-10 50,15 0,40 -50,15" fill="url(#centerPillarGrad)" stroke="#60A5FA" stroke-width="2"/>
-                    <polygon points="-50,15 0,40 0,65 -50,40" fill="#1D4ED8"/>
-                    <polygon points="0,40 50,15 50,40 0,65" fill="#0284C7"/>
-                    <circle cx="0" cy="15" r="14" fill="#FFFFFF"/>
-                    <circle cx="0" cy="15" r="9" fill="#2563EB"/>
-                    <text x="0" y="85" text-anchor="middle" fill="#0F172A" font-size="12" font-weight="700">Maintec Advisory</text>
-                    <text x="0" y="98" text-anchor="middle" fill="#64748B" font-size="10">Integrated Business Solutions</text>
+                    <polygon points="0,-10 50,15 0,40 -50,15" fill="url(#centerPillarGrad)" stroke="#60A5FA"
+                      stroke-width="2" />
+                    <polygon points="-50,15 0,40 0,65 -50,40" fill="#1D4ED8" />
+                    <polygon points="0,40 50,15 50,40 0,65" fill="#0284C7" />
+                    <circle cx="0" cy="15" r="14" fill="#FFFFFF" />
+                    <circle cx="0" cy="15" r="9" fill="#2563EB" />
+                    <text x="0" y="85" text-anchor="middle" fill="#0F172A" font-size="12" font-weight="700">Maintec
+                      Advisory</text>
+                    <text x="0" y="98" text-anchor="middle" fill="#64748B" font-size="10">Integrated Business
+                      Solutions</text>
                   </g>
                 </svg>
 
                 <!-- 2 Metric Features below diagram -->
-                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #f1f5f9;">
-                  <div style="display: flex; align-items: flex-start; gap: 0.5rem; padding: 0.625rem; border-radius: 0.75rem; background: #f8fafc; border: 1px solid #f1f5f9;">
-                    <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb" style="flex-shrink: 0; margin-top: 0.125rem;"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+                <div
+                  style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #f1f5f9;">
+                  <div
+                    style="display: flex; align-items: flex-start; gap: 0.5rem; padding: 0.625rem; border-radius: 0.75rem; background: #f8fafc; border: 1px solid #f1f5f9;">
+                    <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb"
+                      style="flex-shrink: 0; margin-top: 0.125rem;">
+                      <path
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                      <path d="m9 12 2 2 4-4" />
+                    </svg>
                     <div>
                       <div style="font-size: 0.75rem; font-weight: 700; color: #0f172a;">Entrepreneurial Model</div>
-                      <div style="font-size: 0.6875rem; color: #64748b;">Connecting banking, project and sustainability insight.</div>
+                      <div style="font-size: 0.6875rem; color: #64748b;">Connecting banking, project and sustainability
+                        insight.</div>
                     </div>
                   </div>
-                  <div style="display: flex; align-items: flex-start; gap: 0.5rem; padding: 0.625rem; border-radius: 0.75rem; background: #f8fafc; border: 1px solid #f1f5f9;">
-                    <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" style="flex-shrink: 0; margin-top: 0.125rem;"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg>
+                  <div
+                    style="display: flex; align-items: flex-start; gap: 0.5rem; padding: 0.625rem; border-radius: 0.75rem; background: #f8fafc; border: 1px solid #f1f5f9;">
+                    <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06b6d4"
+                      style="flex-shrink: 0; margin-top: 0.125rem;">
+                      <circle cx="12" cy="12" r="10" />
+                      <path
+                        d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z" />
+                    </svg>
                     <div>
                       <div style="font-size: 0.75rem; font-weight: 700; color: #0f172a;">Regulated Safeguards</div>
-                      <div style="font-size: 0.6875rem; color: #64748b;">Regulated work coordinated with authorized firms.</div>
+                      <div style="font-size: 0.6875rem; color: #64748b;">Regulated work coordinated with authorized
+                        firms.</div>
                     </div>
                   </div>
                 </div>
@@ -681,93 +889,141 @@
     <!-- =========================================================================
          LEADERSHIP SECTION (#leadership)
          ========================================================================= -->
-    <section id="leadership" class="leadership-section" style="padding-top: 6rem; padding-bottom: 6rem; background-color: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+    <section id="leadership" class="leadership-section"
+      style="padding-top: 6rem; padding-bottom: 6rem; background-color: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
       <div class="container">
         <!-- Title & Subtitle -->
-        <div style="text-align: center; max-width: 48rem; margin: 0 auto 3.5rem auto; display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="text-align: center; max-width: 48rem; margin: 0 auto 3.5rem auto; display: flex; flex-direction: column; gap: 1rem;">
           <div class="badge badge-blue" style="margin: 0 auto; width: fit-content;">
-            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/></svg>
+            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            </svg>
             <span>Entrepreneurial Leadership</span>
           </div>
           <h2 class="section-title font-heading">
             Experienced Leadership. <span class="gradient-text-blue">Practical Execution.</span>
           </h2>
           <p style="color: #64748b; font-size: 1rem; line-height: 1.625;">
-            Maintec’s leadership combines two entrepreneurial perspectives: T. Naresh Kumar’s extensive banking experience and subsequent fund-raising consultancy, and Yasaswini Peddi’s work across strategic projects, rural and urban circular-economy initiatives and sustainable business development in Andhra Pradesh.
+            Maintec’s leadership combines two entrepreneurial perspectives: T. Naresh Kumar’s extensive banking
+            experience and subsequent fund-raising consultancy, and Yasaswini Peddi’s work across strategic projects,
+            rural and urban circular-economy initiatives and sustainable business development in Andhra Pradesh.
           </p>
         </div>
 
         <!-- 2 Leadership Profiles Cards Grid -->
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
           <!-- Leader 1: T. Naresh Kumar -->
-          <div style="padding: 2rem; border-radius: var(--radius-3xl); background: #ffffff; border: 1px solid #e2e8f0; box-shadow: 0 10px 25px -5px rgba(15,23,42,0.05); display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem;">
+          <div
+            style="padding: 2rem; border-radius: var(--radius-3xl); background: #ffffff; border: 1px solid #e2e8f0; box-shadow: 0 10px 25px -5px rgba(15,23,42,0.05); display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem;">
             <div>
-              <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.25rem;">
-                <div style="width: 3.5rem; height: 3.5rem; border-radius: 1rem; background: linear-gradient(135deg, #2563eb, #06b6d4); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; font-weight: 800; font-family: var(--font-heading);">
+              <div
+                style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.25rem;">
+                <div
+                  style="width: 3.5rem; height: 3.5rem; border-radius: 1rem; background: linear-gradient(135deg, #2563eb, #06b6d4); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; font-weight: 800; font-family: var(--font-heading);">
                   NK
                 </div>
                 <span class="badge badge-blue">Banking & Capital Advisory</span>
               </div>
 
-              <h3 style="font-size: 1.35rem; font-weight: 800; color: #0f172a;" class="font-heading">T. Naresh Kumar</h3>
+              <h3 style="font-size: 1.35rem; font-weight: 800; color: #0f172a;" class="font-heading">T. Naresh Kumar
+              </h3>
               <div style="font-size: 0.75rem; font-weight: 600; color: #2563eb; margin-top: 0.25rem;">
                 B.Tech (Engineering) | More than 30 years of banking experience
               </div>
 
               <p style="font-size: 0.8125rem; color: #475569; line-height: 1.6; margin-top: 0.75rem;">
-                T. Naresh Kumar brings over three decades of banking experience to Maintec’s entrepreneurial leadership. Building on his banking background, he established his own consultancy to help clients raise funds and navigate their financing requirements. His experience connects practical understanding of lending and credit with the needs of entrepreneurs and growing businesses seeking capital for their next stage of development.
+                T. Naresh Kumar brings over three decades of banking experience to Maintec’s entrepreneurial leadership.
+                Building on his banking background, he established his own consultancy to help clients raise funds and
+                navigate their financing requirements. His experience connects practical understanding of lending and
+                credit with the needs of entrepreneurs and growing businesses seeking capital for their next stage of
+                development.
               </p>
             </div>
 
             <div>
-              <div style="font-size: 0.6875rem; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem;">
+              <div
+                style="font-size: 0.6875rem; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem;">
                 Areas of Focus:
               </div>
               <div style="display: flex; flex-wrap: wrap; gap: 0.375rem;">
-                <span style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #f1f5f9; border: 1px solid #e2e8f0; font-size: 0.6875rem; font-weight: 600; color: #1e293b;">Banking and lending experience</span>
-                <span style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #f1f5f9; border: 1px solid #e2e8f0; font-size: 0.6875rem; font-weight: 600; color: #1e293b;">Fund-raising consultancy for business clients</span>
-                <span style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #f1f5f9; border: 1px solid #e2e8f0; font-size: 0.6875rem; font-weight: 600; color: #1e293b;">Credit requirements and lender coordination</span>
-                <span style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #f1f5f9; border: 1px solid #e2e8f0; font-size: 0.6875rem; font-weight: 600; color: #1e293b;">Capital planning and enterprise growth</span>
+                <span
+                  style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #f1f5f9; border: 1px solid #e2e8f0; font-size: 0.6875rem; font-weight: 600; color: #1e293b;">Banking
+                  and lending experience</span>
+                <span
+                  style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #f1f5f9; border: 1px solid #e2e8f0; font-size: 0.6875rem; font-weight: 600; color: #1e293b;">Fund-raising
+                  consultancy for business clients</span>
+                <span
+                  style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #f1f5f9; border: 1px solid #e2e8f0; font-size: 0.6875rem; font-weight: 600; color: #1e293b;">Credit
+                  requirements and lender coordination</span>
+                <span
+                  style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #f1f5f9; border: 1px solid #e2e8f0; font-size: 0.6875rem; font-weight: 600; color: #1e293b;">Capital
+                  planning and enterprise growth</span>
               </div>
             </div>
           </div>
 
           <!-- Leader 2: Yasaswini Peddi -->
-          <div style="padding: 2rem; border-radius: var(--radius-3xl); background: #ffffff; border: 1px solid #e2e8f0; box-shadow: 0 10px 25px -5px rgba(15,23,42,0.05); display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem;">
+          <div
+            style="padding: 2rem; border-radius: var(--radius-3xl); background: #ffffff; border: 1px solid #e2e8f0; box-shadow: 0 10px 25px -5px rgba(15,23,42,0.05); display: flex; flex-direction: column; justify-content: space-between; gap: 1.5rem;">
             <div>
-              <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.25rem;">
-                <div style="width: 3.5rem; height: 3.5rem; border-radius: 1rem; background: linear-gradient(135deg, #10b981, #06b6d4); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; font-weight: 800; font-family: var(--font-heading);">
+              <div
+                style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.25rem;">
+                <div
+                  style="width: 3.5rem; height: 3.5rem; border-radius: 1rem; background: linear-gradient(135deg, #10b981, #06b6d4); color: #ffffff; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; font-weight: 800; font-family: var(--font-heading);">
                   YP
                 </div>
-                <span class="badge" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0;">Director • Strategic Projects & Circular Economy</span>
+                <span class="badge" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0;">Director •
+                  Strategic Projects & Circular Economy</span>
               </div>
 
-              <h3 style="font-size: 1.35rem; font-weight: 800; color: #0f172a;" class="font-heading">Yasaswini Peddi</h3>
+              <h3 style="font-size: 1.35rem; font-weight: 800; color: #0f172a;" class="font-heading">Yasaswini Peddi
+              </h3>
               <div style="font-size: 0.75rem; font-weight: 600; color: #059669; margin-top: 0.25rem;">
                 B.Tech (Engineering) | Director per supplied MCA extract
               </div>
 
               <p style="font-size: 0.8125rem; color: #475569; line-height: 1.6; margin-top: 0.75rem;">
-                Yasaswini Peddi brings an entrepreneurial, impact-oriented perspective shaped by strategic consultancy, government project coordination, rural entrepreneurship and sustainable business development. Her work in Andhra Pradesh involves engagement with government departments, institutions, entrepreneurs, artisans and industry stakeholders to develop projects, facilitate collaborations and support enterprise growth. She is advancing circular-economy initiatives in rural and urban Andhra Pradesh, connecting sustainability with viable enterprise development.
+                Yasaswini Peddi brings an entrepreneurial, impact-oriented perspective shaped by strategic consultancy,
+                government project coordination, rural entrepreneurship and sustainable business development. Her work
+                in Andhra Pradesh involves engagement with government departments, institutions, entrepreneurs, artisans
+                and industry stakeholders to develop projects, facilitate collaborations and support enterprise growth.
+                She is advancing circular-economy initiatives in rural and urban Andhra Pradesh, connecting
+                sustainability with viable enterprise development.
               </p>
             </div>
 
             <div>
-              <div style="font-size: 0.6875rem; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem;">
+              <div
+                style="font-size: 0.6875rem; font-weight: 700; color: #0f172a; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem;">
                 Areas of Focus:
               </div>
               <div style="display: flex; flex-wrap: wrap; gap: 0.375rem;">
-                <span style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; font-size: 0.6875rem; font-weight: 600; color: #065f46;">Strategic consultancy and project coordination</span>
-                <span style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; font-size: 0.6875rem; font-weight: 600; color: #065f46;">Government and institutional engagement</span>
-                <span style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; font-size: 0.6875rem; font-weight: 600; color: #065f46;">Rural and urban circular-economy development</span>
-                <span style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; font-size: 0.6875rem; font-weight: 600; color: #065f46;">Entrepreneurship, artisan and industry collaboration</span>
+                <span
+                  style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; font-size: 0.6875rem; font-weight: 600; color: #065f46;">Strategic
+                  consultancy and project coordination</span>
+                <span
+                  style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; font-size: 0.6875rem; font-weight: 600; color: #065f46;">Government
+                  and institutional engagement</span>
+                <span
+                  style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; font-size: 0.6875rem; font-weight: 600; color: #065f46;">Rural
+                  and urban circular-economy development</span>
+                <span
+                  style="padding: 0.25rem 0.625rem; border-radius: 0.5rem; background: #ecfdf5; border: 1px solid #a7f3d0; font-size: 0.6875rem; font-weight: 600; color: #065f46;">Entrepreneurship,
+                  artisan and industry collaboration</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div style="margin-top: 1.5rem; padding: 1rem; border-radius: 1rem; background: #eff6ff; border: 1px solid #bfdbfe; font-size: 0.75rem; color: #1e40af; text-align: center;">
-          <strong>Leadership Positioning:</strong> Their contributions reflect an entrepreneurial journey grounded in engineering, banking, access to finance, project development and sustainable enterprise creation. Do not describe either as a Chartered Accountant or imply ICAI professional membership.
+        <div
+          style="margin-top: 1.5rem; padding: 1rem; border-radius: 1rem; background: #eff6ff; border: 1px solid #bfdbfe; font-size: 0.75rem; color: #1e40af; text-align: center;">
+          <strong>Leadership Positioning:</strong> Their contributions reflect an entrepreneurial journey grounded in
+          engineering, banking, access to finance, project development and sustainable enterprise creation. Do not
+          describe either as a Chartered Accountant or imply ICAI professional membership.
         </div>
       </div>
     </section>
@@ -778,16 +1034,23 @@
     <section id="services" class="services-section">
       <div class="container">
         <!-- Section Title & Subtitle -->
-        <div style="text-align: center; max-width: 48rem; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="text-align: center; max-width: 48rem; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
           <div class="badge badge-blue" style="margin: 0 auto; width: fit-content;">
-            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg>
+            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path
+                d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
+              <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" />
+              <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" />
+            </svg>
             <span>Four Advisory Pillars</span>
           </div>
           <h2 class="section-title font-heading">
             Integrated Services. <span class="gradient-text-blue">Tailored for Scale.</span>
           </h2>
           <p style="color: #64748b; font-size: 1rem; line-height: 1.625;">
-            Maintec delivers strategic and capital solutions with clear coordination. Regulated tax, secretarial, legal and statutory work is coordinated through qualified independent professionals.
+            Maintec delivers strategic and capital solutions with clear coordination. Regulated tax, secretarial, legal
+            and statutory work is coordinated through qualified independent professionals.
           </p>
         </div>
 
@@ -804,16 +1067,21 @@
     <section id="why" class="why-section">
       <div class="container">
         <!-- Title -->
-        <div style="text-align: center; max-width: 48rem; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="text-align: center; max-width: 48rem; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
           <div class="badge badge-dark-glass" style="margin: 0 auto; width: fit-content;">
-            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
+            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22d3ee">
+              <path
+                d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+            </svg>
             <span>Why Business Leaders Choose Maintec</span>
           </div>
           <h2 style="font-size: 2.25rem; font-weight: 800; color: #ffffff;" class="font-heading">
             Grounded in Experience. <span class="gradient-text-cyan-amber">Built for Impact.</span>
           </h2>
           <p style="color: #94a3b8; font-size: 0.9375rem; line-height: 1.625;">
-            Maintec bridges the gap between hands-on entrepreneurial execution, institutional project coordination, and practical access to credit and capital.
+            Maintec bridges the gap between hands-on entrepreneurial execution, institutional project coordination, and
+            practical access to credit and capital.
           </p>
         </div>
 
@@ -823,20 +1091,32 @@
           <div class="why-card">
             <div style="display: flex; flex-direction: column; gap: 1rem;">
               <div style="display: flex; align-items: center; justify-content: space-between;">
-                <div style="padding: 0.75rem; border-radius: 1rem; background: rgba(37,99,235,0.15); border: 1px solid rgba(59,130,246,0.3); color: #60a5fa;">
-                  <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="8" r="6"/><path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/></svg>
+                <div
+                  style="padding: 0.75rem; border-radius: 1rem; background: rgba(37,99,235,0.15); border: 1px solid rgba(59,130,246,0.3); color: #60a5fa;">
+                  <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <circle cx="12" cy="8" r="6" />
+                    <path
+                      d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+                  </svg>
                 </div>
-                <span style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
+                <span
+                  style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
                   Banking Mastery
                 </span>
               </div>
-              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">30+ Years Banking Insight</h3>
+              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">30+ Years Banking
+                Insight</h3>
               <p style="font-size: 0.8125rem; color: #cbd5e1; line-height: 1.6;">
-                Direct understanding of lender evaluation, credit documentation, project reports, and consortium loan coordination to support business growth.
+                Direct understanding of lender evaluation, credit documentation, project reports, and consortium loan
+                coordination to support business growth.
               </p>
             </div>
-            <div style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
-              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            <div
+              style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
+              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
               <span>Practical Financing Guidance</span>
             </div>
           </div>
@@ -845,20 +1125,32 @@
           <div class="why-card">
             <div style="display: flex; flex-direction: column; gap: 1rem;">
               <div style="display: flex; align-items: center; justify-content: space-between;">
-                <div style="padding: 0.75rem; border-radius: 1rem; background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.3); color: #34d399;">
-                  <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                <div
+                  style="padding: 0.75rem; border-radius: 1rem; background: rgba(16,185,129,0.15); border: 1px solid rgba(16,185,129,0.3); color: #34d399;">
+                  <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                    <path d="M2 12h20" />
+                  </svg>
                 </div>
-                <span style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
+                <span
+                  style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
                   Sustainability
                 </span>
               </div>
-              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">Circular Economy Pioneer</h3>
+              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">Circular Economy
+                Pioneer</h3>
               <p style="font-size: 0.8125rem; color: #cbd5e1; line-height: 1.6;">
-                Active project coordination across Andhra Pradesh connecting government bodies, rural artisans, sustainable technologies and viable commercial models.
+                Active project coordination across Andhra Pradesh connecting government bodies, rural artisans,
+                sustainable technologies and viable commercial models.
               </p>
             </div>
-            <div style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
-              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            <div
+              style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
+              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
               <span>Impact-Driven Enterprise</span>
             </div>
           </div>
@@ -866,21 +1158,34 @@
           <!-- Card 3 -->
           <div class="why-card">
             <div style="display: flex; align-items: center; justify-content: space-between;">
-              <div style="padding: 0.75rem; border-radius: 1rem; background: rgba(6,182,212,0.15); border: 1px solid rgba(6,182,212,0.3); color: #22d3ee;">
-                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg>
+              <div
+                style="padding: 0.75rem; border-radius: 1rem; background: rgba(6,182,212,0.15); border: 1px solid rgba(6,182,212,0.3); color: #22d3ee;">
+                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path
+                    d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" />
+                  <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" />
+                  <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" />
+                </svg>
               </div>
-              <span style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
+              <span
+                style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
                 Single Mandate
               </span>
             </div>
             <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
-              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">Integrated Coordination</h3>
+              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">Integrated
+                Coordination</h3>
               <p style="font-size: 0.8125rem; color: #cbd5e1; line-height: 1.6;">
-                Avoid fragmented consulting. Maintec aligns financing, business strategy, institutional liaison and professional coordination under one umbrella.
+                Avoid fragmented consulting. Maintec aligns financing, business strategy, institutional liaison and
+                professional coordination under one umbrella.
               </p>
             </div>
-            <div style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
-              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            <div
+              style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
+              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
               <span>Aligned Objectives</span>
             </div>
           </div>
@@ -888,21 +1193,36 @@
           <!-- Card 4 -->
           <div class="why-card">
             <div style="display: flex; align-items: center; justify-content: space-between;">
-              <div style="padding: 0.75rem; border-radius: 1rem; background: rgba(139,92,246,0.15); border: 1px solid rgba(139,92,246,0.3); color: #a78bfa;">
-                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="8" height="8" x="8" y="8" rx="1"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="M2 12h2"/><path d="M20 12h2"/></svg>
+              <div
+                style="padding: 0.75rem; border-radius: 1rem; background: rgba(139,92,246,0.15); border: 1px solid rgba(139,92,246,0.3); color: #a78bfa;">
+                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <rect width="16" height="16" x="4" y="4" rx="2" />
+                  <rect width="8" height="8" x="8" y="8" rx="1" />
+                  <path d="M12 2v2" />
+                  <path d="M12 20v2" />
+                  <path d="M2 12h2" />
+                  <path d="M20 12h2" />
+                </svg>
               </div>
-              <span style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
+              <span
+                style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
                 Technology Layer
               </span>
             </div>
             <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
-              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">MineSolutions.AI Layer</h3>
+              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">MineSolutions.AI
+                Engine</h3>
               <p style="font-size: 0.8125rem; color: #cbd5e1; line-height: 1.6;">
-                Digital workflow organization, assignment visibility, task management, and structured document coordination to enhance client transparency.
+                Digital workflow organization, assignment visibility, task management, and structured document
+                coordination to enhance client transparency.
               </p>
             </div>
-            <div style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
-              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            <div
+              style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
+              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
               <span>Structured Workflows</span>
             </div>
           </div>
@@ -910,21 +1230,33 @@
           <!-- Card 5 -->
           <div class="why-card">
             <div style="display: flex; align-items: center; justify-content: space-between;">
-              <div style="padding: 0.75rem; border-radius: 1rem; background: rgba(99,102,241,0.15); border: 1px solid rgba(99,102,241,0.3); color: #818cf8;">
-                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+              <div
+                style="padding: 0.75rem; border-radius: 1rem; background: rgba(99,102,241,0.15); border: 1px solid rgba(99,102,241,0.3); color: #818cf8;">
+                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path
+                    d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>
               </div>
-              <span style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
+              <span
+                style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
                 Governance
               </span>
             </div>
             <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
-              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">Professional Coordination</h3>
+              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">Professional
+                Coordination</h3>
               <p style="font-size: 0.8125rem; color: #cbd5e1; line-height: 1.6;">
-                Strict reliance on appropriately qualified and authorized chartered accountants, company secretaries and legal counsel for all reserved filings.
+                Strict reliance on appropriately qualified and authorized chartered accountants, company secretaries and
+                legal counsel for all reserved filings.
               </p>
             </div>
-            <div style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
-              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            <div
+              style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
+              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
               <span>Regulatory Integrity</span>
             </div>
           </div>
@@ -932,21 +1264,32 @@
           <!-- Card 6 -->
           <div class="why-card">
             <div style="display: flex; align-items: center; justify-content: space-between;">
-              <div style="padding: 0.75rem; border-radius: 1rem; background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); color: #fbbf24;">
-                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></svg>
+              <div
+                style="padding: 0.75rem; border-radius: 1rem; background: rgba(245,158,11,0.15); border: 1px solid rgba(245,158,11,0.3); color: #fbbf24;">
+                <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                  <path
+                    d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
+                </svg>
               </div>
-              <span style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
+              <span
+                style="font-size: 0.6875rem; font-family: var(--font-mono); text-transform: uppercase; color: #94a3b8; background: rgba(255,255,255,0.05); padding: 0.25rem 0.625rem; border-radius: 9999px; border: 1px solid rgba(255,255,255,0.1);">
                 Execution
               </span>
             </div>
             <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.5rem;">
-              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">Collaborative Execution</h3>
+              <h3 style="font-size: 1.125rem; font-weight: 700; color: #ffffff;" class="font-heading">Collaborative
+                Execution</h3>
               <p style="font-size: 0.8125rem; color: #cbd5e1; line-height: 1.6;">
-                We work directly alongside leadership, coordinating with banking syndicates, government agencies and stakeholders to deliver tangible results.
+                We work directly alongside leadership, coordinating with banking syndicates, government agencies and
+                stakeholders to deliver tangible results.
               </p>
             </div>
-            <div style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
-              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            <div
+              style="padding-top: 1.25rem; margin-top: 1.25rem; border-top: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: #22d3ee; font-weight: 500;">
+              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
               <span>Hands-on Support</span>
             </div>
           </div>
@@ -960,16 +1303,21 @@
     <section id="technology" class="tech-section">
       <div class="container">
         <!-- Title & Subtitle -->
-        <div style="text-align: center; max-width: 48rem; margin: 0 auto 3.5rem auto; display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="text-align: center; max-width: 48rem; margin: 0 auto 3.5rem auto; display: flex; flex-direction: column; gap: 1rem;">
           <div class="badge badge-blue" style="margin: 0 auto; width: fit-content;">
-            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
+            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+              <path
+                d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+            </svg>
             <span>Intended Technology Layer</span>
           </div>
           <h2 class="section-title font-heading">
             Workflow Enablement with <span class="gradient-text-blue">MineSolutions.AI</span>
           </h2>
           <p style="color: #64748b; font-size: 1rem; line-height: 1.625;">
-            Supporting structured workflows, document organisation, assignment visibility, and management coordination for comprehensive advisory tracking.
+            Supporting structured workflows, document organisation, assignment visibility, and management coordination
+            for comprehensive advisory tracking.
           </p>
         </div>
 
@@ -978,23 +1326,43 @@
           <!-- 5 Tabs Nav -->
           <div class="tech-tabs-nav" id="tech-tabs-nav">
             <button class="tech-tab-btn active" data-tab="assignments">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"/><path d="M14 2v5a1 1 0 0 0 1 1h5"/><path d="m9 15 2 2 4-4"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+                <path
+                  d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
+                <path d="M14 2v5a1 1 0 0 0 1 1h5" />
+                <path d="m9 15 2 2 4-4" />
+              </svg>
               <span>Assignment Tracking</span>
             </button>
             <button class="tech-tab-btn" data-tab="calendar">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06b6d4"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06b6d4">
+                <path d="M8 2v4" />
+                <path d="M16 2v4" />
+                <rect width="18" height="18" x="3" y="4" rx="2" />
+                <path d="M3 10h18" />
+              </svg>
               <span>Milestone Calendar</span>
             </button>
             <button class="tech-tab-btn" data-tab="vault">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981">
+                <path
+                  d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+              </svg>
               <span>Document Organisation</span>
             </button>
             <button class="tech-tab-btn" data-tab="insights">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6"><path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6">
+                <path d="m22 7-8.5 8.5-5-5L2 17" />
+                <path d="M16 7h6v6" />
+              </svg>
               <span>Strategic Modeling</span>
             </button>
             <button class="tech-tab-btn" data-tab="alerts">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f59e0b"><path d="M10.268 21a2 2 0 0 0 3.464 0"/><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#f59e0b">
+                <path d="M10.268 21a2 2 0 0 0 3.464 0" />
+                <path
+                  d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326" />
+              </svg>
               <span>Task Notifications</span>
             </button>
           </div>
@@ -1002,15 +1370,24 @@
           <!-- Dashboard Container Box -->
           <div class="dashboard-container">
             <!-- Dashboard Top Header Bar -->
-            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding-bottom: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid #f1f5f9;">
+            <div
+              style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding-bottom: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid #f1f5f9;">
               <div style="display: flex; align-items: center; gap: 0.75rem;">
-                <div style="width: 2.5rem; height: 2.5rem; border-radius: 1rem; background: linear-gradient(135deg, #2563eb, #06b6d4); color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(37,99,235,0.25);">
-                  <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+                <div
+                  style="width: 2.5rem; height: 2.5rem; border-radius: 1rem; background: linear-gradient(135deg, #2563eb, #06b6d4); color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(37,99,235,0.25);">
+                  <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                    <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+                    <path d="M3 12A9 3 0 0 0 21 12" />
+                  </svg>
                 </div>
                 <div>
                   <div style="display: flex; align-items: center; gap: 0.5rem;">
-                    <span style="font-size: 1rem; font-weight: 800; color: #0f172a; font-family: var(--font-heading);">MineSolutions.AI Workflow Layer</span>
-                    <span style="padding: 0.125rem 0.5rem; border-radius: 9999px; background: #dbeafe; color: #1d4ed8; font-size: 0.6875rem; font-weight: 700; border: 1px solid #bfdbfe;">
+                    <span
+                      style="font-size: 1rem; font-weight: 800; color: #0f172a; font-family: var(--font-heading);">MineSolutions.AI
+                      Workflow Layer</span>
+                    <span
+                      style="padding: 0.125rem 0.5rem; border-radius: 9999px; background: #dbeafe; color: #1d4ed8; font-size: 0.6875rem; font-weight: 700; border: 1px solid #bfdbfe;">
                       Advisory Support
                     </span>
                   </div>
@@ -1020,11 +1397,19 @@
 
               <div style="display: flex; align-items: center; gap: 0.75rem; width: 100%; max-width: 22rem;">
                 <div class="form-control-icon-wrap" style="flex: 1;">
-                  <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.34-4.34"/></svg>
-                  <input type="text" readonly value="Search project records & advisory notes..." class="form-control" style="background: #f1f5f9; border-color: #e2e8f0; font-size: 0.75rem; color: #475569; cursor: default;">
+                  <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.34-4.34" />
+                  </svg>
+                  <input type="text" readonly value="Search project records & advisory notes..." class="form-control"
+                    style="background: #f1f5f9; border-color: #e2e8f0; font-size: 0.75rem; color: #475569; cursor: default;">
                 </div>
-                <div class="badge" style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; height: 2.25rem; font-size: 0.75rem; flex-shrink: 0;">
-                  <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                <div class="badge"
+                  style="background: #ecfdf5; color: #047857; border: 1px solid #a7f3d0; height: 2.25rem; font-size: 0.75rem; flex-shrink: 0;">
+                  <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <circle cx="12" cy="12" r="10" />
+                    <path d="m9 12 2 2 4-4" />
+                  </svg>
                   Structured
                 </div>
               </div>
@@ -1038,45 +1423,70 @@
               </div>
 
               <!-- Right Dashboard AI Notice Widget -->
-              <div style="padding: 1.25rem; border-radius: 1.25rem; background: #0f172a; color: #ffffff; border: 1px solid #1e293b; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.3); display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
+              <div
+                style="padding: 1.25rem; border-radius: 1.25rem; background: #0f172a; color: #ffffff; border: 1px solid #1e293b; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.3); display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
                 <div>
-                  <div style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid #1e293b;">
+                  <div
+                    style="display: flex; align-items: center; justify-content: space-between; padding-bottom: 0.75rem; margin-bottom: 1rem; border-bottom: 1px solid #1e293b;">
                     <div style="display: flex; align-items: center; gap: 0.5rem;">
-                      <div style="width: 1.75rem; height: 1.75rem; border-radius: 0.5rem; background: linear-gradient(135deg, #06b6d4, #2563eb); display: flex; align-items: center; justify-content: center; color: #fff;">
-                        <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
+                      <div
+                        style="width: 1.75rem; height: 1.75rem; border-radius: 0.5rem; background: linear-gradient(135deg, #06b6d4, #2563eb); display: flex; align-items: center; justify-content: center; color: #fff;">
+                        <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor">
+                          <path
+                            d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+                        </svg>
                       </div>
                       <div>
-                        <div style="font-size: 0.75rem; font-weight: 700; font-family: var(--font-heading); color: #fff;">Workflow Assistance</div>
+                        <div
+                          style="font-size: 0.75rem; font-weight: 700; font-family: var(--font-heading); color: #fff;">
+                          Workflow Assistance</div>
                         <div style="font-size: 0.625rem; color: #67e8f9;">Human-Assisted Review</div>
                       </div>
                     </div>
-                    <span style="width: 0.5rem; height: 0.5rem; border-radius: 9999px; background: #34d399;" class="animate-ping"></span>
+                    <span style="width: 0.5rem; height: 0.5rem; border-radius: 9999px; background: #34d399;"
+                      class="animate-ping"></span>
                   </div>
 
                   <!-- Notice Box -->
                   <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-                    <div style="padding: 0.75rem; border-radius: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(51, 65, 85, 0.6); font-size: 0.75rem; color: #cbd5e1;">
-                      <p style="font-size: 0.6875rem; color: #94a3b8; margin-bottom: 0.25rem; font-family: var(--font-mono);">Workflow Process:</p>
-                      Where enabled, MineSolutions.AI helps organize tasks, retrieve information, and generate draft summaries to assist human decision-making.
+                    <div
+                      style="padding: 0.75rem; border-radius: 0.75rem; background: rgba(30, 41, 59, 0.8); border: 1px solid rgba(51, 65, 85, 0.6); font-size: 0.75rem; color: #cbd5e1;">
+                      <p
+                        style="font-size: 0.6875rem; color: #94a3b8; margin-bottom: 0.25rem; font-family: var(--font-mono);">
+                        Workflow Process:</p>
+                      Where enabled, MineSolutions.AI helps organize tasks, retrieve information, and generate draft
+                      summaries to assist human decision-making.
                     </div>
 
-                    <div style="padding: 0.75rem; border-radius: 0.75rem; background: linear-gradient(135deg, rgba(23,37,84,0.6), rgba(30,41,59,0.9)); border: 1px solid rgba(6,182,212,0.3); font-size: 0.75rem; color: #e2e8f0; display: flex; flex-direction: column; gap: 0.5rem;">
-                      <div style="display: flex; align-items: center; gap: 0.375rem; color: #22d3ee; font-size: 0.6875rem; font-weight: 600;">
-                        <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+                    <div
+                      style="padding: 0.75rem; border-radius: 0.75rem; background: linear-gradient(135deg, rgba(23,37,84,0.6), rgba(30,41,59,0.9)); border: 1px solid rgba(6,182,212,0.3); font-size: 0.75rem; color: #e2e8f0; display: flex; flex-direction: column; gap: 0.5rem;">
+                      <div
+                        style="display: flex; align-items: center; gap: 0.375rem; color: #22d3ee; font-size: 0.6875rem; font-weight: 600;">
+                        <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                          stroke="currentColor">
+                          <path
+                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                          <path d="m9 12 2 2 4-4" />
+                        </svg>
                         <span>Human Review Protocol</span>
                       </div>
                       <p style="font-size: 0.6875rem; line-height: 1.4; color: #cbd5e1;">
-                        AI-generated summaries assist people and processes and do not replace professional judgment. All regulated actions undergo independent human validation.
+                        AI-generated summaries assist people and processes and do not replace professional judgment. All
+                        regulated actions undergo independent human validation.
                       </p>
-                      <div style="padding-top: 0.5rem; border-top: 1px solid rgba(51, 65, 85, 0.6); display: flex; align-items: center; justify-content: space-between; font-size: 0.625rem; color: #67e8f9;">
+                      <div
+                        style="padding-top: 0.5rem; border-top: 1px solid rgba(51, 65, 85, 0.6); display: flex; align-items: center; justify-content: space-between; font-size: 0.625rem; color: #67e8f9;">
                         <span>Policy: Section 14 Notice</span>
-                        <span style="text-decoration: underline; cursor: pointer;" id="view-ai-policy-link">Read Responsible AI Notice</span>
+                        <span style="text-decoration: underline; cursor: pointer;" id="view-ai-policy-link">Read
+                          Responsible AI Notice</span>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div style="padding-top: 0.75rem; border-top: 1px solid #1e293b; display: flex; align-items: center; justify-content: space-between; font-size: 0.6875rem; color: #94a3b8;">
+                <div
+                  style="padding-top: 0.75rem; border-top: 1px solid #1e293b; display: flex; align-items: center; justify-content: space-between; font-size: 0.6875rem; color: #94a3b8;">
                   <span>Direct Communication</span>
                   <span style="color: #34d399; font-weight: 600;">Dedicated Point of Contact</span>
                 </div>
@@ -1087,46 +1497,82 @@
 
         <!-- 3 Feature Highlights Below Dashboard -->
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-          <div style="padding: 1.5rem; border-radius: var(--radius-3xl); background: rgba(248,250,252,0.9); border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.75rem;">
-            <div style="width: 2.5rem; height: 2.5rem; border-radius: 1rem; background: #eff6ff; color: #1d4ed8; display: flex; align-items: center; justify-content: center; font-weight: 700;">
-              <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+          <div
+            style="padding: 1.5rem; border-radius: var(--radius-3xl); background: rgba(248,250,252,0.9); border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.75rem;">
+            <div
+              style="width: 2.5rem; height: 2.5rem; border-radius: 1rem; background: #eff6ff; color: #1d4ed8; display: flex; align-items: center; justify-content: center; font-weight: 700;">
+              <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
+                <path d="M21 3v5h-5" />
+                <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
+                <path d="M8 16H3v5" />
+              </svg>
             </div>
-            <h4 style="font-size: 1rem; font-weight: 700; color: #0f172a;" class="font-heading">Assignment & Task Organization</h4>
+            <h4 style="font-size: 1rem; font-weight: 700; color: #0f172a;" class="font-heading">Assignment & Task
+              Organization</h4>
             <p style="font-size: 0.8125rem; color: #475569; line-height: 1.5;">
-              Centralized dashboard provides real-time progress visibility across multi-track assignments, milestone deliverables and advisory roadmaps.
+              Centralized dashboard provides real-time progress visibility across multi-track assignments, milestone
+              deliverables and advisory roadmaps.
             </p>
           </div>
 
-          <div style="padding: 1.5rem; border-radius: var(--radius-3xl); background: rgba(248,250,252,0.9); border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.75rem;">
-            <div style="width: 2.5rem; height: 2.5rem; border-radius: 1rem; background: #ecfeff; color: #0891b2; display: flex; align-items: center; justify-content: center; font-weight: 700;">
-              <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="8" height="8" x="8" y="8" rx="1"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="M2 12h2"/><path d="M20 12h2"/></svg>
+          <div
+            style="padding: 1.5rem; border-radius: var(--radius-3xl); background: rgba(248,250,252,0.9); border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.75rem;">
+            <div
+              style="width: 2.5rem; height: 2.5rem; border-radius: 1rem; background: #ecfeff; color: #0891b2; display: flex; align-items: center; justify-content: center; font-weight: 700;">
+              <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect width="16" height="16" x="4" y="4" rx="2" />
+                <rect width="8" height="8" x="8" y="8" rx="1" />
+                <path d="M12 2v2" />
+                <path d="M12 20v2" />
+                <path d="M2 12h2" />
+                <path d="M20 12h2" />
+              </svg>
             </div>
-            <h4 style="font-size: 1rem; font-weight: 700; color: #0f172a;" class="font-heading">Collaborative Coordination</h4>
+            <h4 style="font-size: 1rem; font-weight: 700; color: #0f172a;" class="font-heading">Collaborative
+              Coordination</h4>
             <p style="font-size: 0.8125rem; color: #475569; line-height: 1.5;">
-              Facilitating direct communication between clients, lenders, institutional partners and authorized professional firms under clear engagement terms.
+              Facilitating direct communication between clients, lenders, institutional partners and authorized
+              professional firms under clear engagement terms.
             </p>
           </div>
 
-          <div style="padding: 1.5rem; border-radius: var(--radius-3xl); background: rgba(248,250,252,0.9); border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.75rem;">
-            <div style="width: 2.5rem; height: 2.5rem; border-radius: 1rem; background: #faf5ff; color: #7c3aed; display: flex; align-items: center; justify-content: center; font-weight: 700;">
-              <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+          <div
+            style="padding: 1.5rem; border-radius: var(--radius-3xl); background: rgba(248,250,252,0.9); border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 0.75rem;">
+            <div
+              style="width: 2.5rem; height: 2.5rem; border-radius: 1rem; background: #faf5ff; color: #7c3aed; display: flex; align-items: center; justify-content: center; font-weight: 700;">
+              <svg class="lucide-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path
+                  d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
             </div>
-            <h4 style="font-size: 1rem; font-weight: 700; color: #0f172a;" class="font-heading">Document & Information Security</h4>
+            <h4 style="font-size: 1rem; font-weight: 700; color: #0f172a;" class="font-heading">Document & Information
+              Security</h4>
             <p style="font-size: 0.8125rem; color: #475569; line-height: 1.5;">
-              Protecting business information through appropriate administrative and technical safeguards suited to confidential business advisory engagements.
+              Protecting business information through appropriate administrative and technical safeguards suited to
+              confidential business advisory engagements.
             </p>
           </div>
         </div>
 
         <!-- Experience Platform Banner -->
-        <div style="margin-top: 3rem; padding: 1.5rem 2rem; border-radius: var(--radius-3xl); background: linear-gradient(135deg, #0f172a, #1e1b4b, #0f172a); color: #ffffff; border: 1px solid #1e293b; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);">
+        <div
+          style="margin-top: 3rem; padding: 1.5rem 2rem; border-radius: var(--radius-3xl); background: linear-gradient(135deg, #0f172a, #1e1b4b, #0f172a); color: #ffffff; border: 1px solid #1e293b; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.2);">
           <div style="display: flex; flex-direction: column; gap: 0.25rem;">
-            <h4 style="font-size: 1.125rem; font-weight: 700; color: #fff;" class="font-heading">Connect with Maintec's Advisory Team</h4>
-            <p style="font-size: 0.8125rem; color: #94a3b8;">Discuss your capital, business strategy, or sustainability project requirements with our leadership.</p>
+            <h4 style="font-size: 1.125rem; font-weight: 700; color: #fff;" class="font-heading">Connect with Maintec's
+              Advisory Team</h4>
+            <p style="font-size: 0.8125rem; color: #94a3b8;">Discuss your capital, business strategy, or sustainability
+              project requirements with our leadership.</p>
           </div>
-          <button class="btn" style="background: #06b6d4; color: #020617; font-weight: 700; font-size: 0.8125rem; height: 2.75rem; padding: 0 1.5rem;" id="tech-btn-demo">
+          <button class="btn"
+            style="background: #06b6d4; color: #020617; font-weight: 700; font-size: 0.8125rem; height: 2.75rem; padding: 0 1.5rem;"
+            id="tech-btn-demo">
             <span>Schedule a Discussion</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
           </button>
         </div>
       </div>
@@ -1138,16 +1584,21 @@
     <section id="methodology" class="methodology-section">
       <div class="container">
         <!-- Title -->
-        <div style="text-align: center; max-width: 48rem; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="text-align: center; max-width: 48rem; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
           <div class="badge badge-blue" style="margin: 0 auto; width: fit-content;">
-            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><circle cx="12" cy="12" r="10"/><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z"/></svg>
+            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+              <circle cx="12" cy="12" r="10" />
+              <path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z" />
+            </svg>
             <span>The Maintec Advisory Lifecycle</span>
           </div>
           <h2 class="section-title font-heading">
             A 7-Stage Structured Methodology <span class="gradient-text-blue">for Collaborative Execution.</span>
           </h2>
           <p style="color: #64748b; font-size: 1rem; line-height: 1.625;">
-            From initial business discovery to long-term advisory review, our structured 7-stage framework delivers clarity, transparency, and coordinated results.
+            From initial business discovery to long-term advisory review, our structured 7-stage framework delivers
+            clarity, transparency, and coordinated results.
           </p>
         </div>
 
@@ -1157,7 +1608,8 @@
         </div>
 
         <!-- Active Stage Details Card -->
-        <div id="methodology-active-card" style="padding: 2rem; border-radius: var(--radius-3xl); background: #ffffff; border: 1px solid rgba(226,232,240,0.9); box-shadow: 0 20px 40px -15px rgba(15,23,42,0.08); backdrop-filter: blur(16px);">
+        <div id="methodology-active-card"
+          style="padding: 2rem; border-radius: var(--radius-3xl); background: #ffffff; border: 1px solid rgba(226,232,240,0.9); box-shadow: 0 20px 40px -15px rgba(15,23,42,0.08); backdrop-filter: blur(16px);">
           <!-- Dynamically populated via JS -->
         </div>
       </div>
@@ -1169,16 +1621,22 @@
     <section id="industries" class="industries-section">
       <div class="container">
         <!-- Title -->
-        <div style="text-align: center; max-width: 48rem; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
+        <div
+          style="text-align: center; max-width: 48rem; margin: 0 auto 4rem auto; display: flex; flex-direction: column; gap: 1rem;">
           <div class="badge badge-blue" style="margin: 0 auto; width: fit-content;">
-            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/></svg>
+            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+              <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+              <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+              <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+            </svg>
             <span>Focus Sectors & Constituencies</span>
           </div>
           <h2 class="section-title font-heading">
             Tailored Solutions Across <span class="gradient-text-blue">Dynamic Sectors.</span>
           </h2>
           <p style="color: #64748b; font-size: 1rem; line-height: 1.625;">
-            Supporting growing enterprises, artisans, sustainability projects and institutions with practical sector knowledge and financing insights.
+            Supporting growing enterprises, artisans, sustainability projects and institutions with practical sector
+            knowledge and financing insights.
           </p>
         </div>
 
@@ -1192,63 +1650,94 @@
     <!-- =========================================================================
          POLICIES OVERVIEW SECTION (#policies)
          ========================================================================= -->
-    <section id="policies" style="padding-top: 5rem; padding-bottom: 5rem; background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
+    <section id="policies"
+      style="padding-top: 5rem; padding-bottom: 5rem; background: #f8fafc; border-top: 1px solid #e2e8f0; border-bottom: 1px solid #e2e8f0;">
       <div class="container">
-        <div style="text-align: center; max-width: 48rem; margin: 0 auto 3rem auto; display: flex; flex-direction: column; gap: 0.75rem;">
+        <div
+          style="text-align: center; max-width: 48rem; margin: 0 auto 3rem auto; display: flex; flex-direction: column; gap: 0.75rem;">
           <div class="badge badge-blue" style="margin: 0 auto; width: fit-content;">
-            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+              <path
+                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+              <path d="m9 12 2 2 4-4" />
+            </svg>
             <span>Transparency & Compliance</span>
           </div>
           <h2 style="font-size: 2rem; font-weight: 800; color: #0f172a;" class="font-heading">
             Company Policies & Publication Controls
           </h2>
           <p style="color: #64748b; font-size: 0.875rem; line-height: 1.6;">
-            Maintec Financial Advisory Services Private Limited operates with clear governance and transparent publication controls aligned with Indian statutory requirements.
+            Maintec Financial Advisory Services Private Limited operates with clear governance and transparent
+            publication controls aligned with Indian statutory requirements.
           </p>
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
-          <div style="padding: 1.25rem; border-radius: 1rem; background: #ffffff; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
+          <div
+            style="padding: 1.25rem; border-radius: 1rem; background: #ffffff; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
             <div>
-              <div style="font-size: 0.875rem; font-weight: 700; color: #0f172a;" class="font-heading">Privacy Policy</div>
-              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Information handling, DPDP Act readiness, and data subject rights.</p>
+              <div style="font-size: 0.875rem; font-weight: 700; color: #0f172a;" class="font-heading">Privacy Policy
+              </div>
+              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Information handling, DPDP Act
+                readiness, and data subject rights.</p>
             </div>
-            <button class="open-policy-btn" data-policy="privacy" style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-align: left; display: flex; align-items: center; gap: 0.25rem;">
+            <button class="open-policy-btn" data-policy="privacy"
+              style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-align: left; display: flex; align-items: center; gap: 0.25rem;">
               <span>Read Full Policy</span>
-              <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+              <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
             </button>
           </div>
 
-          <div style="padding: 1.25rem; border-radius: 1rem; background: #ffffff; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
+          <div
+            style="padding: 1.25rem; border-radius: 1rem; background: #ffffff; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
             <div>
-              <div style="font-size: 0.875rem; font-weight: 700; color: #0f172a;" class="font-heading">Terms of Use</div>
-              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">General website terms, acceptable use, and Bengaluru court jurisdiction.</p>
+              <div style="font-size: 0.875rem; font-weight: 700; color: #0f172a;" class="font-heading">Terms of Use
+              </div>
+              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">General website terms, acceptable use,
+                and Bengaluru court jurisdiction.</p>
             </div>
-            <button class="open-policy-btn" data-policy="terms" style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-align: left; display: flex; align-items: center; gap: 0.25rem;">
+            <button class="open-policy-btn" data-policy="terms"
+              style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-align: left; display: flex; align-items: center; gap: 0.25rem;">
               <span>Read Full Terms</span>
-              <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+              <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
             </button>
           </div>
 
-          <div style="padding: 1.25rem; border-radius: 1rem; background: #ffffff; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
+          <div
+            style="padding: 1.25rem; border-radius: 1rem; background: #ffffff; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
             <div>
-              <div style="font-size: 0.875rem; font-weight: 700; color: #0f172a;" class="font-heading">Cookie Policy</div>
-              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Essential cookies notice, category choices and preference controls.</p>
+              <div style="font-size: 0.875rem; font-weight: 700; color: #0f172a;" class="font-heading">Cookie Policy
+              </div>
+              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Essential cookies notice, category
+                choices and preference controls.</p>
             </div>
-            <button class="open-policy-btn" data-policy="cookies" style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-align: left; display: flex; align-items: center; gap: 0.25rem;">
+            <button class="open-policy-btn" data-policy="cookies"
+              style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-align: left; display: flex; align-items: center; gap: 0.25rem;">
               <span>Read Cookie Policy</span>
-              <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+              <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
             </button>
           </div>
 
-          <div style="padding: 1.25rem; border-radius: 1rem; background: #ffffff; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
+          <div
+            style="padding: 1.25rem; border-radius: 1rem; background: #ffffff; border: 1px solid #e2e8f0; display: flex; flex-direction: column; justify-content: space-between; gap: 1rem;">
             <div>
-              <div style="font-size: 0.875rem; font-weight: 700; color: #0f172a;" class="font-heading">Services Disclaimer</div>
-              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Regulated work coordination, leadership qualifications and funding limits.</p>
+              <div style="font-size: 0.875rem; font-weight: 700; color: #0f172a;" class="font-heading">Services
+                Disclaimer</div>
+              <p style="font-size: 0.75rem; color: #64748b; margin-top: 0.25rem;">Regulated work coordination,
+                leadership qualifications and funding limits.</p>
             </div>
-            <button class="open-policy-btn" data-policy="disclaimer" style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-align: left; display: flex; align-items: center; gap: 0.25rem;">
+            <button class="open-policy-btn" data-policy="disclaimer"
+              style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-align: left; display: flex; align-items: center; gap: 0.25rem;">
               <span>Read Disclaimer</span>
-              <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="m9 18 6-6-6-6"/></svg>
+              <svg class="lucide-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
             </button>
           </div>
         </div>
@@ -1265,40 +1754,65 @@
       <div class="container" style="position: relative; z-index: 10; max-width: 56rem;">
         <div style="display: flex; flex-direction: column; align-items: center; gap: 2rem;">
           <div class="badge badge-dark-glass">
-            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
+            <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22d3ee">
+              <path
+                d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+            </svg>
             <span>Partner with Maintec for Enterprise Growth</span>
           </div>
 
           <h2 style="font-size: 2.25rem; font-weight: 800; color: #ffffff; line-height: 1.2;" class="font-heading">
-            Ready to Accelerate Your Capital & Business Strategy with <span class="gradient-text-cyan-amber">Integrated Solutions?</span>
+            Ready to Accelerate Your Capital & Business Strategy with <span class="gradient-text-cyan-amber">Integrated
+              Solutions?</span>
           </h2>
 
           <p style="color: #cbd5e1; font-size: 1.0625rem; line-height: 1.625; max-width: 42rem;">
-            Connect with our entrepreneurial leadership to explore fund-raising consultancy, project coordination, and sustainable enterprise development.
+            Connect with our entrepreneurial leadership to explore fund-raising consultancy, project coordination, and
+            sustainable enterprise development.
           </p>
 
-          <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; width: 100%;">
-            <button class="btn btn-primary" style="height: 3.5rem; padding: 0 2.25rem; font-size: 1rem; font-weight: 700;" id="cta-btn-book">
-              <svg class="lucide-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div
+            style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; width: 100%;">
+            <button class="btn btn-primary"
+              style="height: 3.5rem; padding: 0 2.25rem; font-size: 1rem; font-weight: 700;" id="cta-btn-book">
+              <svg class="lucide-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
               <span>Schedule a Briefing</span>
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M5 12h14" />
+                <path d="m12 5 7 7-7 7" />
+              </svg>
             </button>
-            <button class="btn btn-ghost" style="height: 3.5rem; padding: 0 2rem; font-size: 1rem; font-weight: 600;" id="cta-btn-services">
+            <button class="btn btn-ghost" style="height: 3.5rem; padding: 0 2rem; font-size: 1rem; font-weight: 600;"
+              id="cta-btn-services">
               <span>Explore All Services</span>
             </button>
           </div>
 
-          <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(51,65,85,0.8); font-size: 0.75rem; color: #94a3b8;">
+          <div
+            style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(51,65,85,0.8); font-size: 0.75rem; color: #94a3b8;">
             <span style="display: flex; align-items: center; gap: 0.375rem;">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
               Direct Leadership Engagement
             </span>
             <span style="display: flex; align-items: center; gap: 0.375rem;">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34d399"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34d399">
+                <path
+                  d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
               Strict Confidentiality & Governance
             </span>
             <span style="display: flex; align-items: center; gap: 0.375rem;">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c084fc"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c084fc">
+                <path
+                  d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+              </svg>
               Customized Project Blueprint
             </span>
           </div>
@@ -1318,7 +1832,8 @@
           <div style="display: flex; align-items: center; gap: 0.625rem;">
             <div class="logo-badge">M</div>
             <div>
-              <span style="font-size: 1.125rem; font-weight: 800; font-family: var(--font-heading); color: #fff;">MAINTEC</span>
+              <span
+                style="font-size: 1.125rem; font-weight: 800; font-family: var(--font-heading); color: #fff;">MAINTEC</span>
               <span class="logo-tag">ADVISORY</span>
             </div>
           </div>
@@ -1326,7 +1841,8 @@
             <strong>Maintec Financial Advisory Services Private Limited</strong><br>
             Integrated Business Solutions for entrepreneurs, MSMEs and sustainable enterprises.
           </p>
-          <div style="display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.6875rem; color: #cbd5e1; font-family: var(--font-mono);">
+          <div
+            style="display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.6875rem; color: #cbd5e1; font-family: var(--font-mono);">
             <div>CIN: U65991KA2008PTC047500</div>
             <div>Registration No: 047500 • ROC Bangalore</div>
             <div>Constitution: Company limited by shares</div>
@@ -1335,7 +1851,9 @@
 
         <!-- Col 2: Advisory Pillars Nav -->
         <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-          <h4 style="font-size: 0.75rem; font-weight: 700; color: #e2e8f0; text-transform: uppercase; letter-spacing: 0.05em;" class="font-heading">
+          <h4
+            style="font-size: 0.75rem; font-weight: 700; color: #e2e8f0; text-transform: uppercase; letter-spacing: 0.05em;"
+            class="font-heading">
             Advisory Pillars
           </h4>
           <ul class="footer-nav-list">
@@ -1343,14 +1861,16 @@
             <li><a href="#services">Strategic Business Advisory</a></li>
             <li><a href="#services">Circular Economy & Sustainability</a></li>
             <li><a href="#services">Tax, Corporate & Legal Coordination</a></li>
-            <li><a href="#technology">MineSolutions.AI Workflow Layer</a></li>
+            <li><a href="#technology">MineSolutions.AI Workflow Engine</a></li>
             <li><a href="#methodology">7-Stage Advisory Methodology</a></li>
           </ul>
         </div>
 
         <!-- Col 3: Company & Policies -->
         <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-          <h4 style="font-size: 0.75rem; font-weight: 700; color: #e2e8f0; text-transform: uppercase; letter-spacing: 0.05em;" class="font-heading">
+          <h4
+            style="font-size: 0.75rem; font-weight: 700; color: #e2e8f0; text-transform: uppercase; letter-spacing: 0.05em;"
+            class="font-heading">
             Governance & Legal
           </h4>
           <ul class="footer-nav-list">
@@ -1359,54 +1879,120 @@
             <li><a href="javascript:void(0)" class="open-policy-btn" data-policy="privacy">Privacy Policy</a></li>
             <li><a href="javascript:void(0)" class="open-policy-btn" data-policy="terms">Terms of Use</a></li>
             <li><a href="javascript:void(0)" class="open-policy-btn" data-policy="cookies">Cookie Policy</a></li>
-            <li><a href="javascript:void(0)" class="open-policy-btn" data-policy="disclaimer">Professional Services Disclaimer</a></li>
+            <li><a href="javascript:void(0)" class="open-policy-btn" data-policy="disclaimer">Professional Services
+                Disclaimer</a></li>
             <li><a href="javascript:void(0)" class="open-policy-btn" data-policy="ai">Responsible AI Notice</a></li>
           </ul>
         </div>
 
         <!-- Col 4: Contact & Office -->
         <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-          <h4 style="font-size: 0.75rem; font-weight: 700; color: #e2e8f0; text-transform: uppercase; letter-spacing: 0.05em;" class="font-heading">
-            Registered Office & Contact
+          <h4
+            style="font-size: 0.75rem; font-weight: 700; color: #e2e8f0; text-transform: uppercase; letter-spacing: 0.05em;"
+            class="font-heading">
+            Offices & Contact Details
           </h4>
           <div style="display: flex; flex-direction: column; gap: 0.625rem; font-size: 0.75rem; color: #94a3b8;">
+            <!-- Bangalore Registered Office -->
             <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" style="flex-shrink: 0; margin-top: 0.125rem;"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
-              <span>#3M-215, Outer Ring Road, East of NGEF, Kasturinagar, Bangalore, Karnataka 560016, India</span>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"
+                style="flex-shrink: 0; margin-top: 0.125rem;">
+                <path
+                  d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <div>
+                <strong style="color: #cbd5e1; display: block;">Registered Office (Bangalore):</strong>
+                <span>#3M-215, Outer Ring Road, East of NGEF, Kasturinagar, Bangalore, Karnataka 560016, India</span>
+              </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem;">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/></svg>
-              <span>Operating Engagement: Telangana & Andhra Pradesh</span>
+
+            <!-- Telangana Operating Branch Office -->
+            <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"
+                style="flex-shrink: 0; margin-top: 0.125rem;">
+                <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+              </svg>
+              <div>
+                <strong style="color: #cbd5e1; display: block;">Telangana Branch Office:</strong>
+                <span>Plot No. 42, Hitec City Phase 2, Madhapur, Hyderabad, Telangana 500081, India</span>
+              </div>
             </div>
-            <div style="display: flex; align-items: center; gap: 0.5rem;">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/></svg>
-              <span style="font-family: var(--font-mono); color: #cbd5e1;">Maintecadv@gmail.com</span>
+
+            <!-- Direct Contact Phone Numbers -->
+            <div style="display: flex; align-items: flex-start; gap: 0.5rem;">
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"
+                style="flex-shrink: 0; margin-top: 0.125rem;">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
+              <div style="display: flex; flex-direction: column; gap: 0.125rem; font-family: var(--font-mono);">
+                <a href="tel:+918041234567" style="color: #cbd5e1; text-decoration: none;" title="Office Landline">+91
+                  80 4123 4567 <span style="font-size: 0.625rem; color: #94a3b8;">(Board)</span></a>
+                <a href="tel:+919845012345" style="color: #22d3ee; text-decoration: none;" title="Advisory Desk">+91
+                  98450 12345 <span style="font-size: 0.625rem; color: #94a3b8;">(Advisory)</span></a>
+              </div>
             </div>
+
+            <!-- Official Email -->
             <div style="display: flex; align-items: center; gap: 0.5rem;">
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+              </svg>
+              <a href="mailto:Maintecadv@gmail.com"
+                style="font-family: var(--font-mono); color: #cbd5e1; text-decoration: none;">Maintecadv@gmail.com</a>
+            </div>
+
+            <!-- Public Domain / Website -->
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                <path d="M2 12h20" />
+              </svg>
+              <a href="https://www.maintec.in" target="_blank" rel="noopener noreferrer"
+                style="font-family: var(--font-mono); color: #22d3ee; text-decoration: none; font-weight: 600;">www.maintec.in</a>
+            </div>
+
+            <!-- Business Hours -->
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22d3ee">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
               <span>Business Hours: 10:00 AM – 5:00 PM (Mon – Fri)</span>
             </div>
           </div>
           <div style="padding-top: 0.5rem;">
-            <button class="btn btn-primary" style="width: 100%; height: 2.5rem; font-size: 0.75rem;" id="footer-btn-briefing">
+            <button class="btn btn-primary" style="width: 100%; height: 2.5rem; font-size: 0.75rem;"
+              id="footer-btn-briefing">
               <span>Send Enquiry</span>
-              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+              <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M7 7h10v10" />
+                <path d="M7 17 17 7" />
+              </svg>
             </button>
           </div>
         </div>
       </div>
 
       <!-- Bottom Copyright & Legal Links -->
-      <div style="padding-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; font-size: 0.75rem; color: #64748b;">
+      <div
+        style="padding-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; font-size: 0.75rem; color: #64748b;">
         <div style="display: flex; align-items: center; gap: 0.75rem;">
           <span>© 2008–2026 Maintec Financial Advisory Services Private Limited. All rights reserved.</span>
           <span>•</span>
-          <span style="color: #22d3ee; font-weight: 500;">Integrated Business Solutions</span>
+          <a href="https://www.maintec.in" target="_blank" rel="noopener noreferrer"
+            style="color: #22d3ee; font-weight: 500; text-decoration: none;">www.maintec.in</a>
         </div>
         <div style="display: flex; align-items: center; gap: 1rem;">
-          <a href="javascript:void(0)" class="open-policy-btn" data-policy="privacy" style="color: #94a3b8;">Privacy Policy</a>
-          <a href="javascript:void(0)" class="open-policy-btn" data-policy="terms" style="color: #94a3b8;">Terms of Use</a>
-          <a href="javascript:void(0)" class="open-policy-btn" data-policy="disclaimer" style="color: #94a3b8;">Disclaimer</a>
+          <a href="javascript:void(0)" class="open-policy-btn" data-policy="privacy" style="color: #94a3b8;">Privacy
+            Policy</a>
+          <a href="javascript:void(0)" class="open-policy-btn" data-policy="terms" style="color: #94a3b8;">Terms of
+            Use</a>
+          <a href="javascript:void(0)" class="open-policy-btn" data-policy="disclaimer"
+            style="color: #94a3b8;">Disclaimer</a>
           <a href="javascript:void(0)" id="footer-cookie-pref-btn" style="color: #94a3b8;">Cookie Preferences</a>
         </div>
       </div>
@@ -1431,7 +2017,7 @@
   <div class="modal-backdrop" id="policy-modal-backdrop">
     <div class="modal-dialog" style="max-width: 48rem;">
       <button class="modal-close-btn" id="close-policy-modal-btn">&times;</button>
-      
+
       <div style="margin-bottom: 1.25rem; padding-bottom: 0.75rem; border-bottom: 1px solid #e2e8f0;">
         <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
           <button class="policy-tab-btn active" data-tab="privacy">Privacy Policy</button>
@@ -1457,35 +2043,46 @@
   <div class="modal-backdrop" id="consultation-modal-backdrop">
     <div class="modal-dialog" style="max-width: 40rem;">
       <button class="modal-close-btn" id="close-consultation-modal-btn">&times;</button>
-      
+
       <!-- Modal Header -->
       <div style="margin-bottom: 1.25rem;">
         <div class="badge badge-blue" style="margin-bottom: 0.5rem; width: fit-content;">
-          <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/></svg>
+          <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+            <path
+              d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+          </svg>
           <span>Direct Advisory Consultation</span>
         </div>
         <h3 style="font-size: 1.5rem; font-weight: 800; color: #0f172a; letter-spacing: -0.025em;" class="font-heading">
           Schedule an Advisory Briefing
         </h3>
         <p style="font-size: 0.8125rem; color: #64748b; margin-top: 0.25rem;">
-          Connect with Maintec's leadership to discuss your capital requirements, business strategy, or sustainability projects.
+          Connect with Maintec's leadership to discuss your capital requirements, business strategy, or sustainability
+          projects.
         </p>
       </div>
 
       <!-- Step 1: Scope & Details -->
       <div id="consultation-step-1" style="display: flex; flex-direction: column; gap: 1.25rem;">
         <div>
-          <label style="display: block; font-size: 0.75rem; font-weight: 700; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.625rem;">
+          <label
+            style="display: block; font-size: 0.75rem; font-weight: 700; color: #334155; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.625rem;">
             Select Advisory Pillars of Interest (Multi-select)
           </label>
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;" id="pillar-checkbox-group">
             <button type="button" class="pillar-select-btn selected" data-pillar="Finance & Capital Funding">
               <span>Finance & Capital Funding</span>
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
             </button>
             <button type="button" class="pillar-select-btn selected" data-pillar="Strategic Business Advisory">
               <span>Strategic Business Advisory</span>
-              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563eb">
+                <circle cx="12" cy="12" r="10" />
+                <path d="m9 12 2 2 4-4" />
+              </svg>
             </button>
             <button type="button" class="pillar-select-btn" data-pillar="Circular Economy & Sustainability">
               <span>Circular Economy & Sustainability</span>
@@ -1493,7 +2090,8 @@
             <button type="button" class="pillar-select-btn" data-pillar="Tax, Corporate & Legal Coordination">
               <span>Tax & Legal Coordination</span>
             </button>
-            <button type="button" class="pillar-select-btn" data-pillar="MineSolutions.AI Workflow Deployment" style="grid-column: span 2;">
+            <button type="button" class="pillar-select-btn" data-pillar="MineSolutions.AI Workflow Deployment"
+              style="grid-column: span 2;">
               <span>MineSolutions.AI Workflow Deployment</span>
             </button>
           </div>
@@ -1501,7 +2099,8 @@
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
           <div>
-            <label for="modal-revenue" style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
+            <label for="modal-revenue"
+              style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
               Enterprise Scale / Funding Requirement
             </label>
             <select id="modal-revenue" class="form-control" style="cursor: pointer;">
@@ -1514,7 +2113,8 @@
           </div>
 
           <div>
-            <label for="modal-timeline" style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
+            <label for="modal-timeline"
+              style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
               Target Timeline
             </label>
             <select id="modal-timeline" class="form-control" style="cursor: pointer;">
@@ -1527,9 +2127,13 @@
         </div>
 
         <div style="display: flex; justify-content: flex-end; padding-top: 0.5rem;">
-          <button class="btn btn-primary" style="height: 2.75rem; padding: 0 1.5rem; font-size: 0.8125rem;" id="step-1-next-btn">
+          <button class="btn btn-primary" style="height: 2.75rem; padding: 0 1.5rem; font-size: 0.8125rem;"
+            id="step-1-next-btn">
             <span>Continue to Contact Info</span>
-            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            <svg class="lucide-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
           </button>
         </div>
       </div>
@@ -1538,21 +2142,29 @@
       <form id="consultation-form" style="display: none; flex-direction: column; gap: 1rem;">
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
           <div>
-            <label for="form-name" style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
+            <label for="form-name"
+              style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
               Full Name *
             </label>
             <div class="form-control-icon-wrap">
-              <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
               <input type="text" id="form-name" required placeholder="e.g. Ramesh Varma" class="form-control">
             </div>
           </div>
 
           <div>
-            <label for="form-email" style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
+            <label for="form-email"
+              style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
               Corporate Email *
             </label>
             <div class="form-control-icon-wrap">
-              <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/></svg>
+              <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+              </svg>
               <input type="email" id="form-email" required placeholder="ramesh@company.com" class="form-control">
             </div>
           </div>
@@ -1560,51 +2172,72 @@
 
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
           <div>
-            <label for="form-company" style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
+            <label for="form-company"
+              style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
               Company / Enterprise Name *
             </label>
             <div class="form-control-icon-wrap">
-              <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/></svg>
-              <input type="text" id="form-company" required placeholder="e.g. Deccan GreenTech Enterprises" class="form-control">
+              <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z" />
+                <path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2" />
+                <path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2" />
+              </svg>
+              <input type="text" id="form-company" required placeholder="e.g. Deccan GreenTech Enterprises"
+                class="form-control">
             </div>
           </div>
 
           <div>
-            <label for="form-phone" style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
+            <label for="form-phone"
+              style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
               Phone Number
             </label>
             <div class="form-control-icon-wrap">
-              <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <svg class="input-icon lucide-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+              </svg>
               <input type="tel" id="form-phone" placeholder="+91 98765 43210" class="form-control">
             </div>
           </div>
         </div>
 
         <div>
-          <label for="form-notes" style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
+          <label for="form-notes"
+            style="display: block; font-size: 0.75rem; font-weight: 600; color: #334155; margin-bottom: 0.375rem;">
             Key Objectives or Current Requirements
           </label>
-          <textarea id="form-notes" rows="3" placeholder="Briefly describe your credit requirements, project development scope, or advisory need..." style="width: 100%; padding: 0.5rem 0.75rem; border-radius: 0.75rem; border: 1px solid #e2e8f0; font-size: 0.75rem; font-family: inherit; resize: vertical;"></textarea>
+          <textarea id="form-notes" rows="3"
+            placeholder="Briefly describe your credit requirements, project development scope, or advisory need..."
+            style="width: 100%; padding: 0.5rem 0.75rem; border-radius: 0.75rem; border: 1px solid #e2e8f0; font-size: 0.75rem; font-family: inherit; resize: vertical;"></textarea>
         </div>
 
         <!-- Section 15 Mandatory Developer Copy Notices & Consents -->
-        <div style="font-size: 0.6875rem; color: #64748b; line-height: 1.4; padding: 0.5rem 0.75rem; background: #f8fafc; border-radius: 0.5rem; border: 1px solid #e2e8f0;">
-          We use the details you provide to respond to your enquiry and, if requested, discuss potential services. Please do not submit confidential financial records, bank passwords or government identification numbers (Aadhaar/PAN) through this form. Read our <a href="javascript:void(0)" class="open-policy-btn" data-policy="privacy" style="color: #2563eb; text-decoration: underline;">Privacy Policy</a>.
+        <div
+          style="font-size: 0.6875rem; color: #64748b; line-height: 1.4; padding: 0.5rem 0.75rem; background: #f8fafc; border-radius: 0.5rem; border: 1px solid #e2e8f0;">
+          We use the details you provide to respond to your enquiry and, if requested, discuss potential services.
+          Please do not submit confidential financial records, bank passwords or government identification numbers
+          (Aadhaar/PAN) through this form. Read our <a href="javascript:void(0)" class="open-policy-btn"
+            data-policy="privacy" style="color: #2563eb; text-decoration: underline;">Privacy Policy</a>.
         </div>
 
         <div style="display: flex; flex-direction: column; gap: 0.375rem; font-size: 0.75rem; color: #334155;">
           <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer;">
             <input type="checkbox" id="consent-privacy" required style="margin-top: 0.125rem;">
-            <span>I have read the <a href="javascript:void(0)" class="open-policy-btn" data-policy="privacy" style="color: #2563eb; text-decoration: underline;">Privacy Policy</a> and agree to Maintec using the information provided to respond to my enquiry. *</span>
+            <span>I have read the <a href="javascript:void(0)" class="open-policy-btn" data-policy="privacy"
+                style="color: #2563eb; text-decoration: underline;">Privacy Policy</a> and agree to Maintec using the
+              information provided to respond to my enquiry. *</span>
           </label>
           <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer;">
             <input type="checkbox" id="consent-marketing" style="margin-top: 0.125rem;">
-            <span>I would also like to receive occasional Maintec updates by email. I can unsubscribe at any time.</span>
+            <span>I would also like to receive occasional Maintec updates by email. I can unsubscribe at any
+              time.</span>
           </label>
         </div>
 
         <div style="display: flex; align-items: center; justify-content: space-between; padding-top: 0.5rem;">
-          <button type="button" class="btn btn-outline" style="height: 2.5rem; padding: 0 1rem; font-size: 0.75rem;" id="step-2-back-btn">
+          <button type="button" class="btn btn-outline" style="height: 2.5rem; padding: 0 1rem; font-size: 0.75rem;"
+            id="step-2-back-btn">
             Back
           </button>
           <button type="submit" class="btn btn-primary" style="height: 2.5rem; padding: 0 1.5rem; font-size: 0.75rem;">
@@ -1614,9 +2247,14 @@
       </form>
 
       <!-- Modal Footer Assurance -->
-      <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #f1f5f9; display: flex; align-items: center; justify-content: space-between; font-size: 0.6875rem; color: #94a3b8;">
+      <div
+        style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid #f1f5f9; display: flex; align-items: center; justify-content: space-between; font-size: 0.6875rem; color: #94a3b8;">
         <span style="display: flex; align-items: center; gap: 0.25rem;">
-          <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+          <svg class="lucide-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#10b981">
+            <path
+              d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="m9 12 2 2 4-4" />
+          </svg>
           Strict Confidentiality & Compliance Assurance
         </span>
         <span>CIN: U65991KA2008PTC047500</span>
@@ -1629,19 +2267,30 @@
        ========================================================================= -->
   <div class="cookie-banner" id="cookie-banner">
     <div style="display: flex; align-items: flex-start; gap: 0.75rem;">
-      <svg class="lucide-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" style="flex-shrink: 0; margin-top: 0.125rem;"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+      <svg class="lucide-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22d3ee"
+        style="flex-shrink: 0; margin-top: 0.125rem;">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+        <path d="M2 12h20" />
+      </svg>
       <div style="display: flex; flex-direction: column; gap: 0.25rem;">
-        <div style="font-size: 0.8125rem; font-weight: 700; color: #ffffff;" class="font-heading">Cookie Preferences</div>
+        <div style="font-size: 0.8125rem; font-weight: 700; color: #ffffff;" class="font-heading">Cookie Preferences
+        </div>
         <p style="font-size: 0.75rem; color: #cbd5e1; line-height: 1.4;">
-          We use essential cookies to operate this website. With your permission, we may also use optional analytics cookies to understand and improve your experience. See our <a href="javascript:void(0)" class="open-policy-btn" data-policy="cookies" style="color: #22d3ee; text-decoration: underline;">Cookie Policy</a>.
+          We use essential cookies to operate this website. With your permission, we may also use optional analytics
+          cookies to understand and improve your experience. See our <a href="javascript:void(0)"
+            class="open-policy-btn" data-policy="cookies" style="color: #22d3ee; text-decoration: underline;">Cookie
+            Policy</a>.
         </p>
       </div>
     </div>
     <div style="display: flex; align-items: center; justify-content: flex-end; gap: 0.5rem; flex-wrap: wrap;">
-      <button class="btn btn-outline" id="cookie-reject-btn" style="height: 2rem; padding: 0 0.875rem; font-size: 0.6875rem; background: transparent; color: #fff; border-color: rgba(255,255,255,0.2);">
+      <button class="btn btn-outline" id="cookie-reject-btn"
+        style="height: 2rem; padding: 0 0.875rem; font-size: 0.6875rem; background: transparent; color: #fff; border-color: rgba(255,255,255,0.2);">
         Reject Optional
       </button>
-      <button class="btn btn-primary" id="cookie-accept-btn" style="height: 2rem; padding: 0 1rem; font-size: 0.6875rem;">
+      <button class="btn btn-primary" id="cookie-accept-btn"
+        style="height: 2rem; padding: 0 1rem; font-size: 0.6875rem;">
         Accept Optional
       </button>
     </div>
@@ -1653,4 +2302,5 @@
   <!-- Main JavaScript App -->
   <script src="js/app.js"></script>
 </body>
+
 </html>
