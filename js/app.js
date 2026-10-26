@@ -526,7 +526,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           <div>
             <h4 style="font-size: 0.9375rem; font-weight: 700; color: #0f172a;" class="font-heading">11. Governing law and contact</h4>
-            <p>These Terms are governed by the laws of India. Subject to mandatory applicable law and final legal review, the competent courts at Bengaluru, Karnataka will have jurisdiction over website-related disputes. Official Website: <a href="https://www.maintec.in" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">https://www.maintec.in</a> | Phone: <a href="tel:+918041234567" style="color: #2563eb; text-decoration: underline;">+91 80 4123 4567</a> | Questions: <a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>.</p>
+            <p>These Terms are governed by the laws of India. Subject to mandatory applicable law and final legal review, the competent courts at Bengaluru, Karnataka will have jurisdiction over website-related disputes. Official Website: <a href="javascript:void(0)" style="color: #2563eb; text-decoration: underline;">https://www.maintec.in</a> | Phone: <a href="tel:+918041234567" style="color: #2563eb; text-decoration: underline;">+91 80 4123 4567</a> | Questions: <a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>.</p>
           </div>
         </div>
       `
@@ -640,7 +640,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           <div>
             <h4 style="font-size: 0.9375rem; font-weight: 700; color: #0f172a;" class="font-heading">8. Contact</h4>
-            <p>For service enquiries or to report an inaccurate website statement, use the public enquiry channel once published or call <a href="tel:+918041234567" style="color: #2563eb; text-decoration: underline;">+91 80 4123 4567</a>. Official Website: <a href="https://www.maintec.in" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: underline;">https://www.maintec.in</a>. For privacy complaints, use the dedicated contact given in the Privacy Policy (<a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>).</p>
+            <p>For service enquiries or to report an inaccurate website statement, use the public enquiry channel once published or call <a href="tel:+918041234567" style="color: #2563eb; text-decoration: underline;">+91 80 4123 4567</a>. Official Website: <a href="javascript:void(0)" style="color: #2563eb; text-decoration: underline;">https://www.maintec.in</a>. For privacy complaints, use the dedicated contact given in the Privacy Policy (<a href="mailto:Maintecadv@gmail.com" style="color: #2563eb; text-decoration: underline;">Maintecadv@gmail.com</a>).</p>
           </div>
         </div>
       `
@@ -747,6 +747,14 @@ document.addEventListener('DOMContentLoaded', () => {
       // Close mobile drawer if open
       closeMobileDrawer();
     });
+  });
+
+  // Guard against any redirection to maintec.in
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (link && link.href && link.href.includes('maintec.in')) {
+      e.preventDefault();
+    }
   });
 
   const mobileMenuToggle = document.getElementById('mobile-menu-btn') || document.getElementById('mobile-menu-toggle');
